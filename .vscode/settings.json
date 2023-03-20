@@ -6,13 +6,14 @@
       },
     "objectscript.conn" :{
       "ns": "HEALTHTOOLKIT",
-      "active": true,
+      "active": false,
       "username": "_SYSTEM",
       "password": "SYS",
       "docker-compose": {
         "service": "iris",
         "internalPort": 52773
-      }
+      },
+      "server": "irismedidoc"
     },
     "sqltools.connections": [
     

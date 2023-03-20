@@ -34,7 +34,7 @@ ClassMethod MedidocToFileService(stream As %Stream.Object) As %Stream.Object
     { 
         do ..%SetStatusCode(503)
         set pOutput = {
-            "503":
+            "400":
             {
                 "Description": "Some results are missing due to missing mapping between MedidocCode and LoincCode"
             }

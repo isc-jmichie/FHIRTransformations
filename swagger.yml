@@ -8,6 +8,8 @@ basePath: /api
 schemes:
   - http
 tags:
+- name: "MEDIDOC to FHIR"
+  description: "Medidoc to FHIR convertor"
 - name: "FHIR to HL7"
   description: "All FHIR to HL7v2 convertors"
 - name: "HL7 to FHIR"
@@ -15,6 +17,33 @@ tags:
 - name: "CDA to FHIR"
   description: "CDA to FHIR convertor"
 paths:
+  '/medidoc/fhir':
+    post:
+      tags:
+      - "MEDIDOC to FHIR"
+      summary: Convert medidoc text to fhir json
+      consumes: 
+      - text/plain
+      parameters:
+      - in: body
+        name: body
+        required: true
+        schema: '#/definitions/medidoc'
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Some results are missing due to missing mapping between MedidocCode and LoincCode
+        '405':
+          description: Method not allowed
+        '406':
+          description: Not acceptable
+        '415':
+          description: Unsupported media type
+        '500':
+          description: Server error
+        '503':
+          description: Service unavailable   
   '/fhir/hl7/adt':
     post:
       tags:
@@ -112,6 +141,8 @@ paths:
         '500':
             description: Server error
 definitions:
+  medidoc:
+    type: string
   fhir :
     type: string
     example: {

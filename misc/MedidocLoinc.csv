@@ -1,0 +1,1698 @@
+MedidocCode,LoincCode,Description
+58201C_B,10331-7,Rhesus group (blood)
+58210A.B,1096-7,Kell Ag (erythrocytes)
+13707D.B,785-6,Mean corpuscular hemoglobin (erythrocytes)
+13721A.B,4679-7,Reticulocytes (blood) - in %
+63012D.B,14196-0,Reticulocytes (blood) - in #/volume
+13714E.B,26478-8,White blood cell differentiation: Lymphocytes (blood) - in %
+01730G.B,13046-8,White blood cell differentiation: Lymphocytes atypical  (blood) - in %
+13714F.B,26485-3,White blood cell differentiation: Monocytes (blood) - in %
+13714D.B,30180-4,White blood cell differentiation: Basophils (blood) - in %
+13714C.B,26450-7,White blood cell differentiation: Eosinophils (blood) - in %
+13714H.B,26511-6,White blood cell differentiation: Neutrophils (blood) - in %
+63012G.B,26508-2,White blood cell differentiation: Neutrophils band form (blood) - in %
+ ,26507-4,White blood cell differentiation: Neutrophils band form (blood) - in #/volume
+ ,26505-8,White blood cell differentiation: Neutrophils segmented (blood) - in %
+ ,30451-9,White blood cell differentiation: Neutrophils segmented (blood) - in #/volume
+13713E.B,26474-7,White blood cell differentiation: Lymphocytes (blood) - in #/volume
+13713H.B,26499-4,White blood cell differentiation: Neutrophils (blood) - in #/volume
+13713C.B,26449-9,White blood cell differentiation: Eosinophils (blood) - in #/volume
+13713F.B,26484-6,White blood cell differentiation: Monocytes (blood) - in #/volume
+13713D.B,26444-0,White blood cell differentiation: Basophils (blood) - in #/volume
+01730D.B,28541-1,White blood cell differentiation: Metamyelocytes (blood) - in %
+01730C.B,26498-6,White blood cell differentiation: Myelocytes (blood) - in %
+01730B.B,26524-9,White blood cell differentiation: Promyelocytes (blood) - in %
+01730A.B,26446-5,White blood cell differentiation: Blasts (blood) - in %
+01730S.B,35058-7,White blood cell differentiation: Hairy cells (blood) - in %
+ ,34919-1,White blood cell differentiation: Sezary cells (blood) - in %
+01730E.B,13047-6,White blood cell differentiation: Plasmocytes (blood) - in %
+01730J.B,11156-7,White blood cell differentiation: Leukocytes morphology on smear
+01730I.B,26463-0,White blood cell differentiation: Large unstained cells (blood) - in %
+63012J.B,26462-2,White blood cell differentiation: Large unstained cells (blood) - in #/volume
+ ,770-8,White blood cell differentiation: Neutrophils (blood) - in % - automated count
+ ,35332-6,White blood cell differentiation: Neutrophils band form (blood) - in % - automated count
+ ,713-8,White blood cell differentiation: Eosinophils (blood) - in % - automated count
+ ,706-2,White blood cell differentiation: Basophils (blood) - in % - automated count
+ ,736-9,White blood cell differentiation: Lymphocytes (blood) - in % - automated count
+ ,5905-5,White blood cell differentiation: Monocytes (blood) - in % - automated count
+01730T.B,38518-7,White blood cell differentiation: Granulocytes immature (blood) - in % 
+ ,751-8,White blood cell differentiation: Neutrophils (blood) - in #/volume - automated count
+ ,30229-9,White blood cell differentiation: Neutrophils band form (blood) - in #/volume - automated count
+ ,711-2,White blood cell differentiation: Eosinophils (blood) - in #/volume - automated count
+ ,704-7,White blood cell differentiation: Basophils (blood) - in #/volume - automated count
+ ,742-7,White blood cell differentiation: Monocytes (blood) - in #/volume - automated count
+ ,51584-1,White blood cell differentiation: Granulocytes immature (blood) - in #/volume
+ ,737-7,White blood cell differentiation: Lymphocytes (blood) - in % - light microscopy
+ ,735-1,White blood cell differentiation: Lymphocytes atypical (blood) - in % - light microscopy
+ ,744-3,White blood cell differentiation: Monocytes (blood) - in % - light microscopy
+ ,707-0,White blood cell differentiation: Basophils (blood) - in % - light microscopy
+ ,714-6,White blood cell differentiation: Eosinophils (blood) - in % - light microscopy
+ ,23761-0,White blood cell differentiation: Neutrophils (blood) - in % - light microscopy
+ ,764-1,White blood cell differentiation: Neutrophils band form (blood) - in % - light microscopy
+ ,740-1,White blood cell differentiation: Neutrophil metamyelocytes (blood) - in % - light microscopy
+ ,709-6,White blood cell differentiation: Blasts (blood) - in % - light microscopy
+ ,769-0,White blood cell differentiation: Neutrophils segmented (blood) - in % - light microscopy
+ ,,White blood cell differentiation: Plasmoctes (blood) - in % - light microscopy
+ ,24106-7,White blood cell differentiation: Hairy cells  (blood) - in % - light microscopy
+ ,,White blood cell differentiation: Smudge cells (blood) - light microscopy
+ ,753-4,White blood cell differentiation: Neutrophils (blood) - in #/volume - light microscopy
+ ,763-3,White blood cell differentiation: Neutrophils band form (blood) - in #/volume - light microscopy
+ ,712-0,White blood cell differentiation: Eosinophils (blood) - in #/volume - light microscopy
+ ,705-4,White blood cell differentiation: Basophils (blood) - in #/volume - light microscopy
+ ,732-8,White blood cell differentiation: Lymphocytes (blood) - in #/volume - light microscopy
+ ,743-5,White blood cell differentiation: Monocytes (blood) - in #/volume - light microscopy
+13717A.B,777-3,Platelets (blood) - automated count
+13717C.B,28542-9,Platelet mean volume (blood)
+57199A.B,2614-6,Methemoglobin (blood) - in %
+44303A.B,2284-8,Folate (serum/plasma) [�g/L]
+44313A.B,2132-9,Cobalamins  (serum/plasma) [ng/L]
+63000G.B,8117-4,B Lymphocytes CD19+ (blood) - in %
+ ,8116-6,B Lymphocytes CD19+ (blood)  - in #/volume
+58303C.B,8124-0,Lymphocytes CD3+ (blood) - in %
+ ,8122-4,Lymphocytes CD3+  (blood)  - in # / volume
+58303A.B,8123-2,CD4+ T lymphocyte  (blood) - in %
+ ,24467-3,CD4+ T lymphocytes (blood)  - in #/volume
+58303B.B,8101-8,CD8+ T lymphocytes (blood) - in %
+ ,14135-8,CD8+ T lymphocyte (blood)  - in #/volume
+58303E.B,54218-3,Ratio CD4+/CD8+ (blood) -  ratio
+ ,9728-7,Lymphocytes CD3-CD16+CD56+ (blood)  - # /volume
+13723A.B,4537-7,Erythrocyte sedimentation rate (blood)
+58158D.B,6301-6,Quick Prothrombin time (platelet poor plasma) - in INR
+58161A.B,14979-9,Activated partial thromboplastin time (platelet poor plasma) - in sec
+63023S.B,63561-5,Activated Partial Thromboplastine Time (platelet poor plasma) - ratio
+57129A.B,2075-0,Chloride (serum/plasma) [mmol/L]
+ ,2069-3,Chloride (blood) [mmol/L]
+ ,34907-6,Calcium corrected for total protein (serum/plasma)
+57209A.B,2777-1,Phosphate (serum/plasma)
+57193A.B,19123-9,Magnesium (serum/plasma)
+571090.B,2524-7,Lactate (serum/plasma)
+ ,2518-9,Lactate (arterial blood) - in moles/volume
+57201A.B,2692-2,Osmolality (serum/plasma) - measured
+ ,18182-6,Osmolality (serum/plasma) - calculated
+57153A.B,2744-1,pH (arterial blood)
+57155A.B,2019-8,Carbon dioxide (arterial blood) - partial pressure in mm[Hg]
+63335T.B,1960-4,Bicarbonate (arterial blood) - [mmol/L]
+57157A.B,2703-7,Partial pressure Oxygen (arterial blood)
+57157B.B,51733-4,Oxygen saturation (arterial blood) - calculated
+63025G.B,2708-6,Oxygen saturation (arterial blood) - measured
+57125A.B,20563-3,Carboxyhemoglobin (blood)  - in %
+13503B.B,15152-2,Bilirubin conjugated (serum/plasma) [mg/dL]
+13503C.B,1971-1,Bilirubin unconjugated (serum/plasma) [mg/dL]
+57271A.B,2537-9,Electrophoresis Lactate dehydrogenase Fraction 1 (serum/plasma) - [U/L]
+57271B.B,2540-3,Electrophoresis lactate dehydrogenase Fraction 2 (serum/plasma)  - [U/L] 
+57271C.B,2543-7,Electrophoresis lactate dehydrogenase Fraction 3 (serum/plasma) - [U/L] 
+57271D.B,2546-0,Electrophoresis lactate dehydrogenase Fraction 4 (serum/plasma) - [U/L]
+57271E.B,2549-4,Electrophoresis lactate dehydrogenase Fraction 5 (serum/plasma) - [U/L] 
+57273A.B,3040-3,Lipase (serum/plasma)
+57259A.B,2157-6,Creatine kinase (serum/plasma)
+57261B.B,32673-6,Creatine kinase MB (serum/plasma) - in enzymatic activity/volume
+44333B.B,13969-1,Creatine kinase MB (serum/plasma) - in mass/volume
+ ,,Creatinine (serum/plasma) - Jaff� not IDMS traceable [mg/dL]
+ ,,Creatinine (serum/plasma) - enzymatic [mg/dL]
+135110.B,53049-3,Glucose - fasted  (serum/plasma) [mg/dL]
+ ,2345-7,Glucose (serum/plasma) [mg/dL]
+ ,41653-7,Glucose (blood capillary)  - [mg/dl] - glucometer
+ ,18262-6,Low density lipoprotein cholesterol (serum/plasma) - measured
+57227A.B,2571-8,Triglyceride (serum/plasma) [mg/dL]
+57215A.B,2885-2,Protein (serum/plasma) - [g/L]
+ ,,Albumin (serum/plasma) - in mass/volume [g/L] - nefelometrisch
+ ,30248-9,Transferrin receptor soluble (serum/plasma)
+57223A.B,2500-7,Iron binding capacity (serum/plasma)  [�g/dL]
+63027K.B,10839-9,Troponin I (serum/plasma)
+63102C.B,6598-7,Troponin T (serum/plasma)
+57151A.B,13980-8,Protein electrophoresis: albumin (serum/plasma) - in %
+57151B.B,13978-2,Protein electrophoresis: alpha 1 globulin (serum/plasma) - in %
+57151C.B,13981-6,Protein electrophoresis: alpha 2 globulin (serum/plasma) - in %
+57151D.B,13982-4,Protein electrophoresis: beta globulin (serum/plasma) - in %
+57151G.B,13983-2,Protein electrophoresis: gamma globulin (serum/plasma) - in %
+57113C.B,44429-9,Protein electrophoresis: ratio albumin/globulins (serum/plasma)
+ ,2862-1,Protein electrophoresis: albumin (serum/plasma) - in mass/volume
+ ,2868-8,Protein electrophoresis: alpha 2 globulin (serum/plasma) - in mass/volume
+ ,2871-2,Protein electrophoresis: beta globulin (serum/plasma) - in mass/volume
+ ,2874-6,Protein electrophoresis: gamma globulin (serum/plasma) - in mass/volume
+57151..B,12851-2,Protein electrophoresis: interpretation (serum/plasma)
+13501A.B,3084-1,Urate (serum/plasma) [mg/dL]
+58413A.B,5370-2,Streptolysin O Ab (serum/Plasma)
+13828A.B,11572-5,Rheumatoid factor (serum/plasma) - in units/volume
+58343A.B,59069-5,Antinuclear antibodies (serum) - presence
+58476C.B,7885-7,Epstein Barr virus capsid Ag IgG (serum) - in units/volume
+ ,22249-7,Cytomegalovirus IgM (serum) - in titer
+58453C.B,22315-6,Hepatitis A virus IgM (serum) - in units/volume
+58453D.B,22313-1,Hepatitis A virus IgG (serum) - in units/volume
+ ,22312-3,Hepatitis A virus Ab (serum)
+58459A.B,58452-4,Hepatitis B virus surface Ag (serum) - in units/volume
+63032I.B,7969-9,Mycoplasma pneumoniae Ab (serum) - in units/volume
+ ,7970-7,Mycoplasma pneumoniae IgG (serum) - in units/volume
+ ,8078-8,Mycoplasma pneumoniae IgM (serum) - in units/volume
+58511A.B,22578-9,Toxoplasma gondii IgA (serum)
+63032Y.B,8039-0,Toxoplasma gondii IgG (serum) - in units/volume 
+58511C.B,8040-8,Toxoplasma gondii IgM (serum) - in units/volume
+ ,34422-6,Toxoplasma gondii IgG avidity (serum)
+63103K.B,11253-2,Tacrolimus (blood) - [�g/L]
+44801A.B,3026-2,Thyroxine (serum/plasma)
+44803A.B,3050-2,Triiodothyronine resin uptake (serum/plasma)
+44509A.B,8098-6,Thyroglobulin Ab (serum/plasma)
+44507A.B,8099-4,Thyroperoxidase Ab (serum/plasma)
+44379B.B,6875-9,Cancer Ag 15-3 (serum/plasma)
+44396C.B,12841-3,Prostate specific Ag free / Prostate specific Ag total (serum/plasma)
+44511A.B,2462-0,Total IgE (serum) [ng/L]
+19660A.B,6096-2,European house dust mite IgE (serum) - [kU/L]
+63082P.B,6280-2,"Whitefaced Hornet IgE (serum) - [kU/L]	"
+19030A.B,6198-6,Paper Wasp venom IgE (serum) - [kU/L]
+ ,30185-3,Epidermals animal allergens mix ex1 IgE (serum) - in units/volume
+13577A.U,2888-6,Protein (urine) - in mass/volume
+00310A.U,5570-7,Aceton (urine) - in mass/volume
+13901E_U,9842-6,Casts (urine sediment) - in #/area - light microscopy low power field
+ ,798-9,Erythrocytes (urine) - in #/volume - automated count
+ ,51483-6,Casts (urine) - in #/volume - automatic count
+13901F_U,5782-8,Crystals (urine sediment) - identity or presence - light microscopy
+57707A.D,2164-2,Creatinine renal clearance (urine collection+serum/plasma)
+ ,8665-2,Date of the last menstrual
+63011C.B,1108-0,Kpb Ag (erythrocytes) - presence
+63011G.B,1078-5,Kidd b Ag (erythrocytes) - presence
+ ,33516-6,Immature reticulocytes (blood) - in %
+63012E.B,771-6,Erythrocytes nucleated (blood) - in #/volume - automated count
+ ,804-5,White blood cells (blood) - in #/volume - manual count
+ ,34918-3,White blood cell differentiation: Sezary cells (blood) - in #/volume
+ ,26471-3,White blood cell differentiation: Leukocytes other (blood) - in % 
+ ,17788-1,White blood cell differentiation: large unstained cells  - in % - automated count
+ ,17789-9,White blood cell differentiation: Large unstained cells (blood) - in #/volume - automated count
+ ,11275-5,White blood cell differentiation: Large granular lymphocytes (blood) - in % - light microscopy
+ ,730-2,White blood cell differentiation: Leukocytes other (blood) -  in % - light microscopy
+44775A.B,15061-5,Erythropoietin (serum/plasma)
+57173..B,43113-0,Hemoglobin electrophoresis
+13706C.B,4546-8,Hemoglobin electrophoresis: hemoglobin A (blood) in %
+13706D.B,4551-8,Hemoglobin electrophoresis: hemoglobin A2 (blood) in %
+13706H.B,4576-5,Hemoglobin electrophoresis: fetal hemoglobin (blood) in %
+13706J.B,4625-0,Hemoglobin electrophoresis: hemoglobin S (blood) in %
+13706E.B,32681-9,Hemoglobin electrophoresis: hemoglobin C (blood) in %
+57173..B,13514-5,Hemoglobin elektrophoresis - Interpretation
+57289A.B,32546-4,Glucose-6-Phosphate dehydrogenase (RBC) - in units/g Hb
+21310A.B,48998-9,6-Phosphogluconate dehydrogenase (RBC) - in units/g Hb
+57289B.B,32552-2,Pyruvate kinase (RBC) - in units/ g Hb
+63012X.B,46701-9,Adenosine triphosphate (red blood cells) - in moles/volume
+13715A.B,637-9,Malaria thick smear (blood)
+63323Y.B,8130-7,Cells.CD45+ (blood) - in %
+63000H.B,8119-0,Lymphocytes CD20+ (blood) - in %
+ ,8126-5,CD38+ cells (blood) - in %
+58125A.B,27816-8,von Willebrand factor antigen (platelet poor plasma) - in %
+58122A.B,6014-5,von Willebrand factor ristocetin cofactor (platelet poor plasma) - in %
+ ,,Von Willebrand Factor Collagen Binding  (platelet poor plasma) - in %
+ ,3256-5,Fibrinogen (platelet poor plasma) - in mass/volume - immunological
+58157A.B,3243-3,Thrombin time (platelet poor plasma) - in seconds 
+58148A.B,55449-3,D-dimer (platelet poor plasma) - in mass/volume
+ ,27815-0,Factor XIII activity (platelet poor plasma) - in % - chromogenic method
+ ,3239-1,Factor XIII antigen (platelet poor plasma) - in % - immunoassay
+58109A.B,27811-9,Antithrombin (platelet poor plasma) - in % - chromogenic method
+58111A.B,27812-7,Antithrombin Ag (platelet poor plasma) -  in % - immunological
+63024D.B,27818-4,Protein C (platelet poor plasma) - in % - chromogenic method
+58169A.B,27819-2,Protein C (platelet poor plasma) - in % - coagulation assay
+63024E.B,27820-0,Protein C Ag (platelet poor plasma) - in % - immunological
+58168A.B,27822-6,Protein S (platelet poor plasma) - in % - coagulation assay
+63024F.B,27823-4,Total Protein S Ag (platelet poor plasma) - in % - immunological
+63024G.B,27821-8,"Protein S Antigen, Free (platelet poor plasma) - in % - immunological"
+63024P.B,3271-4,Low Molecular Weight Heparin - anti-Xa activity (platelet poor plasma) - in IU/ml
+63310B.B,6303-2,Lupus anticoagulant: Dilute Russell Viper Venom Time (platelet poor plasma) - in seconds 
+58149A.B,28660-9,Plasminogen (platelet poor plasma) - in % - chromogenic method
+57195A.B,2597-3,Magnesium (red blood cells) -  [mmol/L]
+57145A.B,5631-7,Copper (serum/plasma) - in mass/volume
+63110D.B,5627-5,Cobalt (serum/plasma) - in mass/volume
+57145J.B,5622-6,Chromium (serum/plasma) - in mass/volume
+04640A..,5724-0,Selenium (serum/plasma) - in mass/volume
+57235A.B,5763-8,Zinc (serum/plasma)
+57257B_B,2098-2,Cholinesterase (serum/plasma)
+57257A.B,39354-6,Cholinesterase dibucaine inhibited/Cholinesterase (serum/plasma)
+57251A.B,1761-6,Aldolase (serum/plasma)
+57291A.B,2742-5,Angiotensin converting enzyme (serum/plasma)
+ ,1521-4,Glucose 2 hours post meal (serum/plasma) [mg/dL]
+44505A.B,2482-8,Insulin Ab (serum/plasma)
+57217V2B,1869-7,Apolipoprotein A1 (serum/plasma) - [g/L]
+57217S.B,1884-6,Apolipoprotein B (serum/plasma) - [g/L]
+63346T.B,20657-3,Taurine (serum/plasma) - in moles/volume
+ ,20642-5,Glutamate (serum/plasma) - in moles/volume
+57203D.B,20643-3,Glutamine (serum/plasma) - in moles/volume
+ ,50046-2,Hemicystine (serum/plasma) - in moles/volume
+ ,2622-9,Methionine (serum/plasma) - in mass/volume
+ ,2508-0,Isoleucine (serum/plasma) - in mass/volume
+ ,20652-4,Ornithine (serum/plasma) - in moles/volume
+ ,2585-8,Lysine (serum/plasma) - in mass/volume
+57203E.B,20645-8,Histidine (serum/plasma) - in moles/volume
+ ,55876-7,Homocitrulline (serum/plasma) - in moles/volume
+ ,2173-3,Cystathionine (serum/plasma) - in mass/volume
+57217P.B,1825-9,Alpha 1 antitrypsin (serum/plasma) - [g/L]
+57217K.B,4542-7,Haptoglobin (serum/plasma) - [g/L]
+57217F.B,4485-9,Complement C3 (serum/plasma) [g/L]
+57217J.B,2685-6,Alpha-1-acid glycoprotein (serum/plasma) - [g/L]
+57217v.B,4478-4,Complement C1q (serum/plasma) - [g/L]
+57217G.B,4498-2,Complement C4 (serum/plasma) [g/L]
+58357A.B,48496-4,Complement total hemolytic CH50 (serum/plasma) - in %
+57217u.B,4477-6,Complement C1 esterase inhibitor (serum/plasma) - [g/L]
+57217O.B,1835-8,Alpha-2-Macroglobulin (serum/plasma) - [g/L]
+57217A2B,2467-9,Immunoglobulin G subclass 2 (serum) - in mass/volume [g/L]
+57217A3B,2468-7,Immunoglobulin G subclass 3 (serum) - in mass/volume [g/L]
+57185D.B,11050-2,Immunoglobulin light chains.kappa (serum) - [g/L]
+57185D.B,36916-5,Immunoglobulin light chains kappa free (serum) - [mg/L]
+57185E.B,11051-0,Immunoglobulin light chains lambda (serum) - [g/L]
+57185E.B,33944-0,Immunoglobulin light chains lambda free (serum) - [mg/L]
+57185F.B,15189-4,Kappa/lambda immunoglobulin light-chain ratio (serum) 
+ ,40844-3,Kappa/lambda free light-chain ratio (serum)
+57127A.B,2064-4,Ceruloplasmin (serum/plasma) -  [g/L]
+57143A.B,,Cryoglobulin (serum/plasma) 
+57217Q.B,14338-8,Prealbumin (serum/plasma) - [g/L]
+57219A.B,1836-6,Alpha-2-Retinol binding protein (serum/plasma)
+02070A.B,2280-6,Fibronectin (plasma)
+58341W.B,8093-7,SSA/Ro Ab (serum) - presence
+58341Z.B,8092-9,SCL-70 extractable nuclear Ab (serum) - presence
+58341V.B,8076-2,Jo-1 extractable nuclear Ab (serum/plasma) - presence
+63028A.B,14235-6,Jo-1 extractable nuclear Ab (serum/plasma) - titer
+63028S.B,8065-5,Cardiolipin Ab IgG (serum/plasma) - in units/volume
+63028T.B,8067-1,Cardiolipin Ab IgM (serum/plasma) - in units/volume
+63329C.B,53027-9,Cyclic citrullinated peptide Ab (serum) - in units/volume
+58454A.B,42595-9,Hepatitis B virus DNA (serum/plasma) - in #/volume - viral load
+63033W.B,3312-6,Alprazolam (serum/plasma)
+57906A.B,3333-2,Amitriptyline (serum/plasma)  - [�g/L]
+06490A..,3463-7,Chloroquine (serum/plasma) - in mass/volume
+57763A.B,3494-2,Clonazepam (serum/plasma) - [�g/L]
+57913A.B,3520-4,Cyclosporine (blood) - in mass/volume [�g/L] 
+57851F..,3548-5,Diazepam (serum/plasma)
+57905B.B,3616-0,Ethosuximide (serum/plasma) - [mg/L]
+57851M..,3724-2,Lorazepam (serum/plasma) - in mass/volume
+57757A.B,5693-7,Methanol (serum/plasma)
+57917A.B,14334-7,Lithium (serum/plasma) - in moles/volume [mmol/L]
+57923A.B,4049-3,Theophylline (serum/plasma) - [mg/L]
+63035D.B,3663-2,Gentamicin (serum/plasma) - peak [mg/L]
+57926D.B,35670-9,Tobramycin (serum/plasma) - [mg/L]
+57905F.B,4086-5,Valproate (serum/plasma) - in mass/volume [mg/L]
+57905A.B,3432-2,Carbamazepine (serum/plasma) - in mass/volume [mg/L]
+57905D.B,3968-5,Phenytoin (serum/plasma) - in mass/volume [mg/L]
+57905E.B,3978-4,Primidone (serum/plasma) - [mg/L]  
+57915A.B,10535-3,Digoxin (serum/plasma) [�g/L]
+ ,3330-8,Amiodarone (serum/plasma) [mg/L]
+06650A.B,6774-4,Desethylamiodarone (serum/plasma)
+08050A.B,20578-1,Vancomycin (serum/plasma) - in mass/volume [mg/L]
+63035O.B,4090-7,Vancomycin peak (serum/plasma) - in mass/volume [mg/L]
+57789A.B,5671-3,Lead (blood) - in mass/volume
+44843A.B,1992-7,Calcitonin (serum/plasma)
+44397..B,30567-2,Thyrotropin receptor Ab (serum/plasma)
+57231A.B,2923-1,Retinol (serum/plasma)
+57233B.B,1823-4,Alpha tocopherol (serum/plasma)
+447110.B,2842-3,Prolactin (serum/plasma) - in mass/volume [�g/L]
+44867A.B,2839-9,Progesterone (serum/plasma) - in mass/volume [�g/L]
+44937A.B,2942-1,Sex hormone binding globulin (serum/plasma)
+449010.B,14675-3,Cortisol (serum/plasma) - in moles/volume [nmol/L]
+44301A.B,1834-1,Alpha-1-Fetoprotein (serum/plasma) - [�g/L]
+44379C.B,19189-0,Cancer Ag 549 (serum/plasma)
+44379A.B,24108-3,Cancer Ag 19-9 (serum/plasma) - [kU/L]
+44393A.B,10334-1,Cancer Ag 125 (serum/plasma) - [kU/L]
+44307A.B,1952-1,Beta-2-Microglobulin (serum) -  [mg/L]
+18790A.B,6261-2,Sweet vernal grass IgE (serum) - [kU/L] 
+18880A.B,6041-8,Bermuda grass IgE (serum) - [kU/L]
+18890A.B,6195-2,Cocksfoot IgE (serum) - [kU/L]
+18900A.B,6169-7,Meadow Fescue IgE (serum) - [kU/L]
+18920A.B,6265-3,Timothy IgE (serum) - [kU/L]
+ ,26430-9,Timothy IgG4 (serum)
+18921A.B,30994-8,Timothy recombinant (rPhl p) 1 IgE (serum) - [kU/L]
+ ,30995-5,Timothy recombinant (rPhl p) 2  IgE (serum) - [kU/L]
+ ,30997-1,Timothy native (nPhl p) 4 IgE (serum) -  [kU/L]
+ ,30998-9,Timothy recombinant (rPhl p) 6 IgE (serum) - [kU/L]
+18921E.B,30999-7,Timothy recombinant (rPhl p) 7 IgE (serum)  - [kU/L]
+18921J.B,31000-3,Timothy recombinant (rPhl p) 11 IgE (serum) - [kU/L]
+ ,34428-3,Timothy recombinant (rPhl p) 12 IgE (serum) - [kU/L]
+18921C.B,34429-1,Timothy recombinant (rPhl p) 1+5b IgE (serum) - [kU/L]
+18921D.B,34430-9,Timothy recombinant (rPhl p) 7+12 IgE (serum) - [kU/L]
+18930A.B,6855-1,Common Reed IgE (serum) -  [kU/L]
+18940A.B,6153-1,Kentucky blue grass IgE (serum) - [kU/L]
+18950A.B,6228-1,Red top grass IgE (serum) - [kU/L]
+18800A.B,6152-3,Johnson grass IgE (serum) - [kU/L] 
+18810A.B,6053-3,Brome IgE (serum) - [kU/L]
+18820A.B,6236-4,"Cultivated Rye grass pollen, IgE (serum) - [kU/L]"
+18830A.B,6272-9,Velvet grass IgE (serum) - [kU/L]
+18840A.B,6093-9,Cultivated oat pollen  IgE (serum) - [kU/L]
+18850A.B,6277-8,"Cultivated Wheat pollen, IgE (serum) - [kU/L]"
+18860A.B,6170-5,Meadow Foxtail IgE (serum) - [kU/L]
+18870A.B,6034-3,Bahia grass IgE (serum) - [kU/L]
+63081E.B,6058-2,Canary grass IgE (serum) - [kU/L]
+ ,7116-7,Barley pollen IgE (serum) - [kU/L]
+63081C.B,7248-8,Cultivated Corn IgE (serum) - [kU/L] 
+63083B.B,6238-0,Salt grass IgE (serum) - [kU/L] 
+63083A.B,6726-4,False oat grass IgE (serum) - [kU/L]
+19470A.B,6275-2,Western Ragweed IgE (serum) - [kU/L]
+19471A.B,6124-2,Giant Ragweed pollen IgE (serum) - [kU/L]
+19473A.B,6115-0,False ragweed IgE (serum) - [kU/L]
+19530A.B,6183-8,Mugwort �IgE (serum) - [kU/L]
+19540A.B,6196-0,Ox-eye daisy IgE (serum) - [kU/L] 
+19550A.B,6097-0,Dandelion IgE (serum) - [kU/L]
+19560A.B,6110-1,English Plantain IgE (serum) - [kU/L]
+19380A.B,6156-4,Goosefoot IgE (serum) - [kU/L]
+19390A.B,6234-9,Saltwort IgE (serum) - [kU/L]
+63081G.B,6077-2,Cocklebur pollen IgE (serum) - [kU/L]
+19400A.B,6128-3,Goldenrod IgE (serum) - [kU/L]
+19410A.B,7604-2,Common Pigweed IgE (serum)
+19411A.B,6239-8,Lenscale IgE (serum) - [kU/L]
+19430A.B,6232-3,Rough marsh elder IgE (serum) - [kU/L]
+19450A.B,6244-8,Sheep sorrel IgE (serum) - [kU/L]
+19460A.B,6200-0,Wall pellitory IgE (serum) - [kU/L]
+19480A.B,6186-1,Common nettle IgE (serum) - [kU/L]
+63037A.B,6199-4,"Wall pellitory, IgE (serum) - [kU/L]"
+63037B.B,40789-0,Japanese hop IgE (serum) - [kU/L] 
+63037C.B,6738-9,"Yellow dock, IgE (serum) - [kU/L]"
+63037D.B,6057-4,Chamomile pollen IgE (serum) - [kU/L] 
+ ,7681-0,"Common Sagebrush pollen, IgE (serum) - [kU/L]"
+ ,11194-8,Rape Pollen IgE (serum) - [kU/L]
+ ,7726-3,Sunflower pollen IgE (serum) - [kU/L]
+63083C.B,11180-7,Lupin IgE (serum) - [kU/L]
+ ,7147-2,"Sugar beet pollen, IgE (serum) - [kU/L]"
+19210A.B,7155-5,Boxelder IgE (serum) - [kU/L]
+19290A.B,15284-3,"Grey alder pollen, IgE (serum) - [kU/L]"
+19300A.B,15283-5,Silver Birch IgE (serum) - [kU/L]
+19301A.B,30984-9,Silver Birch recombinant (rBet v) 1 IgE (serum) - [kU/L]
+19301B.B,30985-6,Silver Birch recombinant (rBet v) 2 IgE (serum) - [kU/L]
+ ,34250-1,Silver Birch recombinant (rBet v) 4 IgE (serum) - [kU/L]
+19301E.B,51524-7,Silver Birch recombinant (rBet v) 2+4 IgE (serum) - [kU/L] 
+19310A.B,6137-4,Hazelnut Pollen IgE (serum) - [kU/L]
+63003P.B,6173-9,Mesquite IgE (serum) - [kU/L] 
+63081I.B,6209-1,Pecan Tree IgE (serum) - [kU/L]
+19580A.B,6178-8,Mountain Juniper IgE (serum) - [kU/L]
+19340A.B,6189-5,White Oak IgE (serum) - [kU/L]
+19350A.B,6109-3,White elm IgE (serum) - [kU/L]
+ ,7195-1,"Red cedar, IgE (serum) - [kU/L]"
+63081J.B,6281-0,White mulberry IgE (serum) - [kU/L]
+19640A.B,6192-9,Olive Pollen IgE (serum) - [kU/L] 
+63081K.B,6222-4,"Queen Palm, IgE (Serum) - [kU/L]"
+19220A.B,33982-0,California Walnut Pollen IgE (serum) - [kU/L]
+19230A.B,15285-0,London Plane IgE (serum)
+ ,40788-2,Japanese Cypress IgE (serum) - [kU/L]
+19240A.B,6285-1,Willowpollen IgE (serum) [kU/L]
+63080B.B,6857-7,"European spruce, IgE (serum) - [kU/L]"
+63083K.B,7220-7,Horse Chestnut IgE (serum) - [kU/L] 
+19250A.B,6090-5,Cottonwood pollen IgE (serum) - [kU/L]
+63037Y.B,6108-5,Elder pollen IgE (serum) - [kU/L] 
+63083I.B,7310-6,Douglas Fir pollen IgE (serum) - [kU/L]
+19260A.B,6278-6,White Ash IgE (serum) - [kU/L]
+63080Z.B,11179-9,Linden IgE (serum) - [kU/L]
+ ,7416-1,Hornbeam IgE (serum) - [kU/L]
+19270A.B,6282-8,"Eastern White Pine pollen, IgE (serum) - [kU/L]"
+ ,7632-3,Privet IgE (serum) - [kU/L]
+63083N.B,6260-4,Sweet gum IgE (serum) 
+19280A.B,14035-0,Japanese Cedar IgE (serum) - [kU/L]
+63037S.B,6113-5,"Gum-tree pollen, IgE (serum) - [kU/L]"
+63037W.B,6151-5,Italian Cypress IgE (serum) - [kU/L]
+ ,6171-3,Cajeput tree IgE (serum) - [kU/L]
+63083M.B,7609-1,"Monterey pine, IgE (serum) - [kU/L]"
+63083H.B,7275-1,Date Palm Pollen IgE (serum)
+ ,6213-3,"Peruvian peppertree pollen, IgE (serum) - [kU/L]"
+ ,6164-8,"Virginia live oak pollen, IgE (serum) - [kU/L]"
+ ,25828-5,Palo verde IgE (serum) - [kU/L]
+ ,11168-2,Arizona Cypress IgE (serum) - [kU/L]
+63083G.B,6069-9,Chestnut Pollen IgE (serum) - [kU/L] 
+19670A.B,6095-4,American house dust mite IgE (serum) -  [kU/L]
+19680A.B,14036-8,Dermatophagoides microceras IgE (serum) - [kU/L]
+19690A.B,6254-7,Acarus siro IgE (serum) - [kU/L]
+19700A.B,6160-6,Lepidoglyphus destructor IgE (serum) - [kU/L]
+19710A.B,6256-2,Tyrophagus putrescentiae IgE (serum) - [kU/L] 
+19720A.B,6126-7,Glycyphagus domesticus IgE (serum) - [kU/L]
+19685A.B,6114-3,Euroglyphus maynei IgE (serum) - [kU/L]
+ ,10921-5,Blomia tropicalis IgE (serum) - [kU/L]
+63082U.B,10919-9,Anisakis IgE (serum) - [kU/L]
+ ,6288-5,Yellow Hornet venom IgE (serum) - [kU/L]
+19040A.B,6078-0,Cockroach IgE (serum) - [kU/L]
+63082R.B,7502-8,Moth IgE (serum) - [kU/L]
+63038D.B,6117-6,Fire Ant IgE (serum) - [kU/L]
+19057A.B,6177-0,Aedes mosquito IgE (serum) - [kU/L]
+19059A.B,6133-3,Green Nimitti IgE (serum) - [kU/L]
+19060A.B,6047-5,Bloodworm IgE (serum) - [kU/L]
+19760A.B,15342-9,European Hornet venom IgE (serum) - [kU/L]
+ ,15339-5,Berlin Beetle IgE (serum) - [kU/L]
+ ,15281-9,Horse bot fly IgE (serum) - [kU/L]
+ ,11174-0,Grain weevel IgE (serum) - [kU/L]
+ ,10938-9,"Mediterranean flour moth, IgE (serum) - [kU/L]"
+ ,6144-0,Horse Fly IgE (serum) - [kU/L]
+ ,6056-6,Bumble Bee venom IgE (serum) - [kU/L]
+ ,25611-5,Oriental Cockroach IgE (serum) - [kU/L]
+19591A.B,6212-5,Penicillium notatum IgE (serum) - [kU/L]
+19593A.B,6075-6,Cladosporium herbarum IgE (serum) - [kU/L]
+19600A.B,6025-1,Aspergillus fumigatus IgE (serum) - [kU/L]
+19601A.B,30986-4,Aspergillus fumigatus recombinant (rAsp f) 1 IgE (serum) - [kU/L]
+19601B.B,30990-6,Aspergillus fumigatus recombinant (rAsp f) 2 IgE (serum) - [kU/L]
+19601C.B,30991-4,Aspergillus fumigatus recombinant (rAsp f) 3 IgE (serum) - [kU/L]
+19601D.B,30992-2,Aspergillus fumigatus recombinant (rAsp f) 4 IgE (serum) - [kU/L]
+19601E.B,30993-0,Aspergillus fumigatus recombinant (rAsp f) 6 IgE (serum) - [kU/L] 
+19620A.B,6182-0,Mucor racemosus IgE (serum) - [kU/L]
+19621A.B,6059-0,Candida albicans IgE (serum) - [kU/L]
+19623A.B,6020-2,Alternaria alternata IgE (serum) - [kU/L]
+19770A.B,6049-1,Botrytis cinerea IgE (serum) - [kU/L]
+19780A.B,6138-2,Helminthosporium halodes IgE (serum) - [kU/L]
+19781A.B,6121-8,Fusarium moniliforme IgE (serum) - [kU/L]
+19130A.B,6252-1,Stemphylium botryosum IgE (serum)
+19783A.B,6229-9,Rhizopus nigricans IgE (serum) - [kU/L]
+19150A.B,6029-3,Aureobasidium pullulans IgE (serum) - [kU/L]
+19160A.B,6216-6,Phoma betae IgE (serum) - [kU/L]
+19170A.B,6111-9,Epicoccum purpurascens IgE (serum) - [kU/L]
+19180A.B,6267-9,Trichoderma viride IgE (serum) - [kU/L]
+19190A.B,6094-7,Curvularia lunata IgE (serum) - [kU/L]
+ ,6026-9,Aspergillus terreus IgE (serum) - [kU/L] 
+ ,25821-0,Staphylococcus aureus enterotoxin A IgE (serum) - [kU/L]
+ ,25822-8,Staphylococcus aureus enterotoxin B IgE (serum) - [kU/L]
+63081N.B,6066-5,Cephalosporium acremonium IgE (serum) - [kU/L]
+63083T.B,11203-7,Trichosporon pullulans IgE (serum) - [kU/L]
+63083U.B,11204-5,Ulocladium chartarum IgE (serum) - [kU/L]
+63081Q.B,6830-4,Aspergillus niger IgE (serum) - [kU/L]
+63083P.B,7200-9,Chaetomium globosum IgE (serum) - [kU/L]
+ ,10949-6,Malassezia furfur IgE (serum) - [kU/L]
+ ,51857-1,"Malassezia sp, IgE (serum) - [kU/L]"
+ ,6024-4,Aspergillus flavus IgE (serum) - [kU/L]
+18031C.B,19738-4,"Dog native serum albumin (nCan f) 3 {e221, E221} IgE (serum) - [kU/L]"
+18040A.B,6143-2,Horse dander IgE (serum) - [kU/L]
+18050A.B,6091-3,Cow dander IgE (serum) - [kU/L]
+18060A.B,6098-8,Dog dander IgE (serum) - [kU/L]
+18070A.B,6134-1,Guinea pig epithelium IgE (serum) - [kU/L]
+18080A.B,6217-4,Pigeon droppings IgE (serum) - [kU/L]
+18090A.B,6129-1,Goose feather IgE (serum) - [kU/L] 
+18100A.B,6179-6,Mouse epithelium IgE (serum)
+18110A.B,6181-2,Mouse urine proteins IgE (serum) - [kU/L] 
+18120A.B,6224-0,Rat epithelium IgE (serum) - [kU/L]
+18130A.B,6226-5,Rat urine proteins IgE (serum) - [kU/L]
+18140A.B,6225-7,Rat serum proteins IgE (serum) - [kU/L]
+18141A.B,6180-4,Mouse serum proteins IgE (serum) - [kU/L]
+18150A.B,6304-0,Budgerigar droppings IgE (serum) - [kU/L]
+18160A.B,6030-1,Budgerigar feather IgE (serum) - [kU/L]
+18170A.B,6031-9,Budgerigar serum proteins IgE (serum) - [kU/L]
+18180A.B,6127-5,Goat epithelium IgE (serum) - [kU/L]
+18200A.B,6223-2,Rabbit epithelium IgE (serum) - [kU/L] 
+18210A.B,6262-0,Swine epithelium IgE (serum) - [kU/L] 
+ ,19759-0,Swine serum albumin IgE (serum) - [kU/L] 
+18220A.B,6135-8,Hamster epithelium IgE (serum)
+18230A.B,6070-7,"Chicken feather, IgE (serum) - [kU/L]"
+18240A.B,6100-2,Duck feather IgE (serum) - [kU/L]
+ ,19753-3,"Rat allergen mix, IgE (serum) - [kU/L]"
+ ,19751-7,Mouse allergen mix IgE (serum) - [kU/L]
+18241A.B,7753-7,Turkey feather IgE (serum) - [kU/L] 
+18171A.B,7566-3,Parakeet serum IgE (serum)
+ ,9729-5,Canary serum proteins IgE (serum) - [kU/L]
+ ,16535-7,Canary droppings IgE (serum) - [kU/L]
+63080Y.B,7171-2,Canary feather IgE (serum) - [kU/L]
+63084F.B,10950-4,Reindeer epithelium IgE (serum) - [kU/L]
+63084H.B,10943-9,Mink epithelium IgE (serum) - [kU/L]
+ ,10935-5,Horse serum proteins IgE (serum) - [kU/L]
+63083Y.B,10960-3,Rabbit serum proteins IgE (serum) - [kU/L] 
+63084I.B,11165-8,Chinchilla epithelium IgE (serum) - [kU/L]
+ ,7334-6,Gerbil epithelium IgE (serum) - [kU/L]
+ ,19740-0,Fox epithelium IgE (serum) - [kU/L]
+63084D.B,10952-0,Swine urine proteins IgE (serum)
+ ,6202-6,Parrot feather IgE (serum) - [kU/L] 
+63084L.B,13833-9,Finch feather IgE (serum) - [kU/L] 
+ ,10926-4,Fallow deer epithelium IgE (serum) - [kU/L]
+63080F.B,11172-4,Ferret epithelium IgE (serum) - [kU/L]
+ ,19734-3,Chicken droppings IgE (serum) - [kU/L]
+18231A.B,6836-1,Chicken serum proteins IgE (serum) - [kU/L]
+63333S.B,19733-5,Cefaclor IgE (Serum) - [kU/L]
+63038R.B,6712-4,Ampicilloyl IgE (Serum) - [kU/L]
+19840A.B,6149-9,"Porcine insulin, IgE (serum) - [kU/L]"
+19850A.B,6147-3,"Bovine insulin, IgE (serum) - [kU/L]"
+19860A.B,6148-1,"Human insulin, IgE (serum) - [kU/L]"
+63082X.B,7332-0,"Bovine gelatin, IgE (serum) - [kU/L]"
+19070A.B,6132-5,Green Coffee Bean IgE (serum) - [kU/L]
+19941A.B,6089-7,Cottonseed IgE (serum) - [kU/L]
+19870A.B,7431-0,Isocyanate TDI IgE (serum) - [kU/L]
+19080A.B,6063-2,Castor Bean IgE (serum) - [kU/L]
+19090A.B,6150-7,Ispaghula laxative IgE (serum) - [kU/L]
+ ,19758-2,Silk waste IgE (serum) - [kU/L]
+ ,6247-1,Silk IgE (serum) - [kU/L]
+19880A.B,7430-2,Isocyanate MDI IgE (serum) - [kU/L]
+19890A.B,7429-4,Isocyanate HDI IgE (serum) - [kU/L]
+19900A.B,6112-7,Ethylene oxide IgE (serum) - [kU/L] 
+19910A.B,7601-8,Phthalic anhydride IgE (serum) - [kU/L]
+19920A.B,6119-2,Formaldehyde IgE (serum) - [kU/L] 
+19930A.B,6116-8,Ficus spp. IgE (serum) - [kU/L]
+19940A.B,6158-0,Latex IgE (serum) - [kU/L]
+ ,50646-9,Latex recombinant (rHev b) 1 IgE (serum) - [kU/L]
+19962A.B,56596-0,Latex recombinant (rHev b) 5 IgE (serum) - [kU/L]
+19962B.B,50648-5,Latex recombinant (rHev b) 6.01 IgE (serum) - [kU/L]
+ ,50649-3,Latex recombinant (rHev b) 6.02 IgE (serum) - [kU/L]
+19962C.B,56597-8,Latex recombinant (rHev b) 8 IgE (serum) - [kU/L]
+19942A.B,6258-8,Sunflower Seed IgE (serum) - [kU/L]
+19950A.B,6072-3,Chloramin T IgE (serum) - [kU/L]
+19960A.B,7746-1,Trimellitic anhydride IgE (serum) - [kU/L]
+19111A.B,10945-4,Papain native (nCar p) 1 IgE (serum) - [kU/L]
+63333R.B,10923-1,Bromelin IgE (serum) - [kU/L]
+ ,11185-6,Maxatase IgE (serum) - [kU/L] 
+ ,19748-3,Methyltetrahydrophthalic anhydride IgE (serum) - [kU/L]
+ ,19724-4,Abachi Wood Dust IgE (serum) 
+21240A.B,26044-8,Pepsin IgE (serum) - [kU/L]
+ ,25565-3,Bougainvillea IgE (serum) - [kU/L]
+20020A.B,6106-9,Egg white IgE (serum)
+ ,7557-2,Ovomucoid native (nGal d) 1 IgE (serum) - [kU/L]
+ ,7556-4,Ovalbumin native (nGal d) 2 IgE (serum) - [kU/L]
+ ,11182-3,Egg white native (nGal d) 4 IgE (serum) - [kU/L]
+18360A.B,7258-7,Cow milk IgE (serum) - [kU/L]
+63081S.B,10940-5,Cow milk boiled IgE (serum)
+ ,26029-9,Lactoferrin bovine IgE (serum) - [kU/L]
+18430A.B,6082-2,Codfish IgE (serum) - [kU/L]
+18281A.B,6276-0,Wheat IgE (serum) - [kU/L]
+ ,58752-7,Wheat recombinant (rTri a) 19 IgE (serum) - [kU/L]
+18283A.B,7674-5,Rye IgE (serum) - [kU/L]
+18580A.B,6037-6,Barley IgE (serum) - [kU/L]
+18285A.B,6190-3,Oat IgE (serum) - [kU/L]
+18287A.B,6087-1,Corn IgE (serum) - [kU/L]
+18760A.B,6230-7,Rice IgE (serum) - [kU/L] 
+18280A.B,6242-2,Sesame Seed IgE (serum) - [kU/L]
+18290A.B,6054-1,Buckwheat IgE (serum) - [kU/L]
+18300A.B,6204-2,Pea IgE (serum) - [kU/L]
+18320A.B,6248-9,Soybean IgE (serum) - [kU/L]
+18330A.B,6279-4,Bean white IgE (serum) - [kU/L]
+18340A.B,6136-6,Hazelnut IgE (serum) - [kU/L]
+18350A.B,6050-9,Brazil Nut IgE (serum) - [kU/L]
+63080V.B,6259-6,Chestnut IgE (serum) - [kU/L] 
+18370A.B,6019-4,Almond IgE (serum)
+63038Y.B,6139-0,Herring IgE (serum) - [kU/L] 
+18380A.B,6092-1,Crab IgE (serum) - [kU/L]
+18390A.B,6246-3,Shrimp IgE (serum) - [kU/L]
+18400A.B,6266-1,Tomato IgE (serum) - [kU/L] 
+18410A.B,6219-0,Pork meat IgE (serum) -  [kU/L]
+18420A.B,6039-2,Beef meat IgE (serum) - [kU/L]
+63003S.B,6131-7,Grapefruit IgE (serum) - [kU/L]
+18440A.B,6061-6,Carrot IgE (serum) - [kU/L]
+63039B.B,6159-8,Lemon IgE (serum) - [kU/L]
+18450A.B,6194-5,Orange IgE (serum) - [kU/L]
+63039C.B,7731-3,Mandarin IgE (serum) - [kU/L] 
+18460A.B,6220-8,Potato IgE (serum) - [kU/L]
+18470A.B,6081-4,Coconut IgE (serum) - [kU/L] 
+18480A.B,6048-3,Blue mussel IgE (serum) - [kU/L]
+63003T.B,6856-9,Spinach IgE (serum) - [kU/L] 
+63080S.B,7169-6,Cabbage IgE (serum) - [kU/L]
+18500A.B,6270-3,Tuna IgE (serum) - [kU/L]
+18510A.B,6237-2,Salmon IgE (serum) - [kU/L]
+18520A.B,6257-0,Strawberry IgE (serum) - [kU/L] 
+18530A.B,6287-7,Baker's yeast IgE (serum) - [kU/L] 
+18540A.B,6122-6,Garlic IgE (serum) - [kU/L]
+18550A.B,6193-7,Onion IgE (serum) - [kU/L]
+18560A.B,6021-0,Apple IgE (serum) - [kU/L]
+63003U.B,6841-1,Grape IgE (serum) - [kU/L]
+63039G.B,6073-1,"Chocolate, IgE (serum) - [kU/L]"
+63080R.B,6105-1,Eel IgE (serum) - [kU/L]
+63039K.B,6214-1,Perch IgE (serum) -[kU/L]
+63039V.B,7215-7,"Gruy�re cheese, IgE (serum) - [kU/L]"
+63039M.B,6249-7,Spiny lobster IgE (serum) - [kU/L]
+63080L.B,6218-2,Pineapple IgE (serum) - [kU/L]
+63080E.B,6719-9,Cherry IgE (serum) - [kU/L]
+18600A.B,6107-7,Egg Yolk IgE (serum) - [kU/L]
+18610A.B,7445-0,Lactalbumin alpha native (nBos d) 4 IgE (serum) - [kU/L]
+18620A.B,41397-1,Beta lactoglobulin (nBos d) 5 IgE (serum) - [kU/L]
+18630A.B,6062-4,Casein (nBos d) 8 IgE (serum) - [kU/L]
+18640A.B,6125-9,Gluten IgE (serum) - [kU/L] 
+18660A.B,6165-5,Lobster IgE (serum) - [kU/L]
+18670A.B,6067-3,Cheese cheddar type IgE (serum) - [kU/L]
+18680A.B,6068-1,Cheese mold type IgE (serum) - [kU/L]
+18690A.B,6071-5,Chicken meat IgE (serum) - [kU/L]
+18700A.B,6154-9,Kiwifruit IgE (serum) - [kU/L]
+18710A.B,6065-7,Celery IgE (serum) - [kU/L]
+18720A.B,6203-4,Parsley IgE (serum) - [kU/L]
+18730A.B,57884-9,Honeydew melon IgE (serum) - [kU/L]
+18740A.B,6155-6,Lamb IgE (serum) - [kU/L]
+18750A.B,6185-3,Mustard IgE (serum) - [kU/L]
+20010A.B,6166-3,Malt IgE (serum) - [kU/L] 
+20000A.B,6167-1,Mango IgE (serum) - [kU/L] 
+18770A.B,6035-0,Banana IgE (serum) - [kU/L]
+18780A.B,6080-6,Cocoa IgE (serum) - [kU/L]
+19990A.B,6207-5,Pear IgE (serum) - [kU/L]
+19980A.B,6205-9,Peach IgE (serum) - [kU/L]
+19970A.B,6033-5,Avocado IgE (serum) - [kU/L]
+63081V.B,10925-6,Chub Mackerel IgE (serum) - [kU/L]
+63081W.B,11184-9,Scad IgE (serum) - [kU/L] 
+ ,33002-7,Spelt IgE (serum) - [kU/L]
+ ,7131-6,"Lima bean, IgE (serum) - [kU/L]"
+63082A.B,6208-3,Pecan Nut IgE (serum) - [kU/L]
+63082B.B,6718-1,Cashew Nut IgE (serum) - [kU/L]
+63082C.B,7613-3,Pistachio IgE (serum) - [kU/L]
+63038Z.B,6268-7,Trout IgE (serum) - [kU/L]
+ ,7474-0,Mackerel IgE (serum) - [kU/L] 
+63081X.B,6076-4,Clam IgE (serum) - [kU/L]
+ ,7151-4,Blackberry IgE (serum) - [kU/L]
+63081T.B,7642-2,Rabbit meat IgE (serum) - [kU/L]
+63082M.B,7563-0,Paprika IgE (serum) - [kU/L] 
+63082F.B,6161-4,Lettuce IgE (serum) - [kU/L]
+63085Q.B,7160-5,Brussel Sprouts IgE (serum) - [kU/L]
+63084Y.B,10929-8,Fennel Seed IgE (serum) - [kU/L]
+63086S.B,6083-0,Coffee IgE (serum) - [kU/L] 
+63080I.B,6264-6,Tea IgE (serum) - [kU/L]
+63086N.B,7623-2,Poppy seed IgE (serum) - [kU/L]
+63082G.B,6854-4,Pumpkin IgE (serum) - [kU/L]
+63086P.B,11193-0,Pumpkin Seed IgE (serum) - [kU/L]
+63085I.B,7756-0,Vanilla IgE (serum) - [kU/L] 
+ ,7774-3,Cow whey IgE (serum) - [kU/L]
+63081R.B,7291-8,Whole Egg IgE (serum) [kU/L]
+ ,7412-0,Honey IgE (serum) - [kU/L]
+63086M.B,10954-6,Pine Nut IgE (serum) - [kU/L]
+ ,10959-5,Plaice IgE (serum) - [kU/L]
+63082L.B,6853-6,Plum IgE (serum) - [kU/L]
+63080W.B,6273-7,Walnut IgE (serum) - [kU/L]
+ ,6858-5,Squid IgE (serum) - [kU/L]
+63082J.B,6052-5,Broccoli IgE (serum) - [kU/L]
+63085M.B,7099-5,Asparagus IgE (serum) - [kU/L]
+63085N.B,7296-7,Eggplant IgE (serum) - [kU/L]
+63085A.B,6852-8,Green Pepper IgE (serum) - [kU/L] 
+ ,7178-7,Caraway IgE (serum) - [kU/L]
+63085C.B,15280-1,Mace IgE (serum) - [kU/L]
+63084R.B,15279-3,Cardamon IgE (serum) - [kU/L]
+63084U.B,7234-8,Clove IgE (serum) - [kU/L]
+ ,7118-3,Basil IgE (serum) - [kU/L]
+63084Z.B,7335-3,Ginger IgE (serum) - [kU/L] 
+ ,7081-3,Anise IgE (serum) - [kU/L]
+63085G.B,11202-9,Tarragon IgE (serum) - [kU/L]
+63085H.B,7737-0,Thyme IgE (serum) - [kU/L]
+63085F.B,10937-1,Marjoram IgE (serum) - [kU/L]
+ ,15278-5,Lovage IgE (serum) - [kU/L] 
+ ,10928-0,"Fennel fresh, IgE (serum) - [kU/L]"
+63084X.B,7280-1,Dill IgE (serum) - [kU/L] 
+63084P.B,7125-8,Bayleaf IgE (serum) - [kU/L]
+ ,7591-1,Chili Pepper IgE (serum) - [kU/L]
+ ,6045-9,Black Pepper IgE (serum) - kU/L
+63084W.B,7270-2,Curry IgE (serum) - [kU/L]
+63085E.B,7552-3,Oregano IgE (serum) - [kU/L]
+63081U.B,6271-1,Turkey meat IgE (serum) - [kU/L]
+ ,10927-2,Elk Meat IgE (serum) - [kU/L]
+63085V.B,7129-0,Red Kidney Bean IgE (serum) -  [kU/L]
+ ,7152-2,Blueberry IgE (serum) - [kU/L]
+63086A.B,31002-9,Dates IgE (serum) - [kU/L]
+63081Y.B,7558-0,Oyster IgE (serum) - [kU/L] 
+63080A.B,6835-3,Cauliflower IgE (serum) - [kU/L]
+63086C.B,10934-8,Guava IgE (serum) - [kU/L]
+63086F.B,6850-2,Papaya IgE (serum) - [kU/L] 
+63086G.B,10946-2,Passion fruit IgE (serum) - [kU/L] 
+63085Z.B,10924-9,Starfruit IgE (serum) - [kU/L]
+ ,7340-3,Goat milk IgE (serum) - [kU/L]
+63086H.B,10947-0,Persimmon IgE (serum) - [kU/L]
+ ,6842-9,Halibut IgE (serum)
+ ,19739-2,Fenugreek IgE (serum) - [kU/L]
+63086E.B,7464-1,Lime IgE (serum) - [kU/L]
+ ,19741-8,Hake IgE (serum) - [kU/L]
+ ,7573-9,Chick pea IgE (serum) - [kU/L]
+ ,19729-3,Blue vetch  IgE (serum) - [kU/L]
+ ,10939-7,Whiff IgE (serum) - [kU/L]
+ ,7728-9,Swordfish IgE (serum) - [kU/L]
+ ,7079-7,Anchovy IgE (serum) - [kU/L]
+ ,11200-3,Snail IgE (serum) - [kU/L]
+63085T.B,6831-2,Green Bean IgE (serum) - [kU/L] 
+63086Q.B,11195-5,Rapeseed IgE (serum) - [kU/L]
+63084V.B,16650-4,Coriander IgE (serum) - [kU/L]
+ ,7265-2,Crawfish IgE (serum) - [kU/L] 
+ ,19743-4,Horse meat IgE (serum) - [kU/L] 
+63086I.B,19754-1,Red Currant IgE (serum) - [kU/L]
+63080C.B,6141-6,Hop IgE (serum) - [kU/L] 
+ ,19756-6,Sheep milk IgE (serum) - [kU/L]
+ ,19757-4,Sheep whey IgE (serum) - [kU/L]
+63086B.B,11173-2,Fig IgE (serum) - [kU/L]
+ ,7770-1,Watermelon IgE (serum) - [kU/L]
+63086K.B,6231-5,Rose Hip IgE (serum) - [kU/L]
+63085L.B,19755-8,Saffron IgE (serum) - [kU/L]
+63085K.B,11190-6,Mint IgE (serum) - [kU/L]
+ ,7312-2,"Flaxseed, IgE (serum) - [kU/L]"
+ ,25703-0,Jujube IgE (serum) - [kU/L]
+ ,7709-9,Sole IgE (serum) - [kU/L]
+18783A.B,7691-9,Scallop IgE (serum) - [kU/L]
+ ,21428-8,Black Olive IgE (serum) - [kU/L]
+63333T.B,7656-2,Raspberry IgE (serum) - [kU/L]
+ ,7678-6,Sage IgE (serum) - [kU/L]
+18783B.B,11183-1,Macadamia nut IgE (serum) - [kU/L] 
+ ,7060-7,"Abalone, IgE (serum) - [kU/L]"
+18783D.B,25743-6,Quinoa IgE (serum) - [kU/L]
+ ,25714-7,Litchi IgE (serum) - [kU/L] 
+ ,7787-5,"Yogurt, IgE (serum) - [kU/L]"
+ ,7187-8,Catfish IgE (serum) - [kU/L]
+ ,7775-0,Whitefish IgE (serum) - [kU/L]
+ ,11196-3,"Orange roughy, IgE (serum) - [kU/L]"
+ ,11191-4,Pollock IgE (serum) - [kU/L]
+ ,32572-0,"Tilapia, IgE (serum) - [kU/L]"
+ ,7761-0,"Walleye pike, IgE (serum) - [kU/L]"
+63084T.B,6837-9,Cinnamon IgE (serum) - [kU/L]
+63085D.B,6188-7,Nutmeg IgE (serum) - [kU/L] 
+ ,7262-9,Cranberry IgE (serum) - [kU/L]
+ ,7723-0,"Sugar Cane, IgE (serum) - [kU/L]"
+63082D.B,10920-7,Bamboo shoot IgE (serum) - [kU/L]
+ ,7627-3,Sweat potato IgE (serum) - [kU/L]
+63081Z.B,6175-4,Common Millet IgE (serum) - [kU/L] 
+63080D.B,11186-4,Foxtail Millet IgE (serum) - [kU/L]
+ ,10942-1,Cockspur IgE (serum) - [kU/L]
+ ,14038-4,Pacific Squid IgE (serum) - [kU/L] 
+ ,10944-7,Octopus IgE (serum) - [kU/L] 
+ ,30989-8,Sardine (Sardinops melanostictus) IgE (serum) - [kU/L] 
+ ,10933-0,Guar gum IgE (serum) - [kU/L]
+ ,7179-5,Carob IgE (serum) - [kU/L]
+ ,7382-5,Gum Arabic IgE (serum) - [kU/L] 
+ ,7743-8,Tragacanth IgE (serum) - [kU/L]
+ ,25609-9,Cochineal extract IgE (serum)
+63063X.B,19737-6,"Cotton (crude fibers), IgE (serum)"
+20150A.B,6240-6,Seminal fluid IgE (serum) - [kU/L] 
+ ,6859-3,Tobacco IgE (serum) - [kU/L]
+ ,10930-6,Artemia salina IgE (serum) - [kU/L]
+ ,10932-2,Tetramin IgE (serum) - [kU/L]
+ ,10931-4,Daphnia IgE (serum) - [kU/L]
+ ,19747-5,Mealworm IgE (serum) - [kU/L]
+13900A.U,2965-2,Specific gravity (urine)
+57415A.U,2695-5,Osmolality (urine) 
+13901A.U,5769-5,Bacteria (urine sediment) - in #/area - light microscopy 
+63006B.U,2694-8,Osmolality (urine 24h)
+57363A.U,3086-6,Uric acid (urine) - in mass/volume
+57403A.U,27365-6,Immunoglobulin light chains.kappa (urine)
+57403B.U,27394-6,Immunoglobulin light chains.lambda (urine)
+57383A.U,2161-8,Creatinine (urine) - in mass/volume
+ ,3122-9,Vanillylmandelate (VMA) (urine 24h) - in mass/time
+58721A.U,32015-0,Epinephrine (urine 24h) - in mass/volume
+63006P.U,2667-4,Norepinephrine  (urine 24h) - in mass/volume
+63006Q.U,27212-0,Dopamine (urine 24h) - in mass/volume
+63006K.U,2147-7,Cortisol free (urine 24h)
+63014A.U,1764-0,Aldosterone (urine)
+ ,2351-5,Glucose (urine 24h) - in mass/time
+63011C.C,10333-3,Appearance (CSF)
+57309A.C,2880-3,Protein (Cerebral spinal fluid)
+57307A.C,2342-4,Glucose (cerebral spinal fluid) - in mass/volume
+57305A.C,2070-1,Chloride (cerebral spinal fluid)
+57315A.C,2464-6,Immunoglobulin G (cerebral spinal fluid) 
+57313..C,24352-7,Protein electrophoresis panel  (cerebral spinal fluid) 
+ ,33857-4,White blood cell differentiation : Sezary cells  (blood) - in %  - light microscopy
+ ,2162-6,Creatinine (urine 24h) - in mass/time
+ ,2956-1,Sodium (urine 24h) - in moles/time [mmoles/24h]
+57427B.U,2829-0,Potassium (urine 24h) - in moles/time  [mmoles/24h]
+ ,2079-2,Chloride (urine 24h) [mmol/24h]
+ ,14637-3,Calcium (urine 24h)  [mmol/24h]
+57363B.U,3087-4,Uric acid (urine 24h) - in mass/time
+ ,768-2,White blood cell differentiation: neutrophils segmented (blood) - in #/volume - light microscopy
+13577B.U,21482-5,Protein (urine 24h) - in mass/volume
+ ,49024-3,White blood cell differentiation: method (blood)
+ ,30433-7,White blood cell differentiation: Metamyelocytes (blood) - in #/volume
+ ,30446-9,White blood cell differentiation: Myelocytes (blood) - in #/volume
+ ,708-8,White blood cell differentiation: Blasts (blood) - in #/volume - light microscopy
+ ,772-4,Erythrocytes nucleated (blood) - in #/volume - light microscopy
+58487C.B,8015-0,Rubella IgM (serum) - in units/volume
+58487A.B,8014-3,Rubella IgG (serum) - in units/volume
+57125A.B,2030-5,Carboxyhemoglobin (arterial blood) - in %
+44845A.B,1989-3,25 hydroxycholecalciferol (serum/plasma)
+44845B.B,1649-3,"1,25 dihydroxycholecalciferol (serum/plasma)"
+44377A.B,2039-6,Carcinoembryonic Ag (serum/plasma)
+44396A.B,2857-1,Prostate specific Ag (serum/plasma) [�g/L]
+44396B.B,10886-0,Prostate specific Ag free (serum/plasma) [�g/L]
+ ,2000-8,Calcium (serum/plasma) - in moles/volume [mmol/L]
+57121A.B,17861-6,Calcium (serum/plasma) - in mass/volume
+57217I.B,1988-5,C reactive protein (serum/plasma) [mg/L]
+ ,14879-1,Phosphate (serum/plasma) - in moles/volume [mmol/L]
+ ,2601-3,Magnesium (serum/plasma)  - in moles/volume [mmol/L]
+ ,47597-0,Calcium corrected for total protein (serum/plasma)  - in moles/volume [mmol/L]
+57283A.B,6768-6,Alkaline phosphatase (serum/plasma) [U/L]
+58201A_B,883-9,ABO group (blood)
+ ,41651-1,Glucose (arterial blood) [mg/dL]
+ ,41652-9,Glucose  (Venous blood) [mg/dL]
+13551A.B,1920-8,Aspartate aminotransferase (serum/plasma) [U/L]
+ ,35591-7,Creatinine renal clearance - calculated Cockcroft-Gault
+ ,35592-5,Creatinine renal clearance - calculated Cockcroft-Gault and body surface area formula
+57163A.B,2498-4,Iron (serum/plasma) - in mass/volume [�g/dl]
+44311A.B,2276-4,Ferritin (serum/plasma) - in mass/volume [�g/L]
+57225A.B,2951-2,Sodium (serum/plasma) [mmol/L]
+57213A.B,2823-3,Potassium (serum/plasma) [mmol/L]
+13503A.B,1975-2,Bilirubin total (serum/plasma) [mg/dL]
+57277A.B,2324-2,Gamma glutamyl transferase (serum/plasma) [U/L]
+57253A.B,1798-8,Amylase (serum/plasma) [U/L]
+63026H.B,47862-8,Insulin post meal (serum/plasma) - [mU/L]
+ ,14633-2,C-peptide (serum/plasma) [nmol/L]
+63026M.B,55919-5,C-peptide post meal (serum/plasma) [nmol/L]
+57133A.B,2085-9,High density lipoprotein cholesterol (serum/plasma) - [mg/dL]
+57131A.B,2093-3,Cholesterol (serum/plasma) - [mg/dL]
+63026U.B,13457-7,Low density lipoprotein cholesterol (serum/plasma) - [mg/dL] - calculated
+57113A.B,1751-7,Albumin (serum/plasma) - [g/L]
+57217B.B,2458-8,Immunoglobulin A (serum) - [g/L]
+57217A.B,2465-3,"Immunoglobulin G (serum) - [g/L]	"
+57217C.B,2472-9,"Immunoglobulin M (serum) - [g/L]	"
+63035E.B,3665-7,Gentamicin (serum/plasma) - trough [mg/L]
+57926E.B,35668-3,Gentamicin (serum/plasma) [mg/L]
+63035J.B,3321-7,Amikacin trough (serum/plasma) [mg/L]
+63035P.B,4092-3,Vancomycin trough (serum/plasma) - in mass/volume [mg/L]
+57785A.B,3298-7,Paracetamol (serum/plasma) - in mass/volume [mg/L]
+ ,3306-8,Acetylsalicylic acid (serum/plasma) - in mass/volume [mg/L]
+44827A.B,3013-0,Thyroglobulin (serum/plasma)
+44861A.B,2243-4,Estradiol (serum/plasma) - in mass / volume [ng/L]
+44933A.B,14913-8,Testosteron (serum/plasma) - in moles/volume [nmol/L]
+44913A.B,14688-6,Dehydroepiandrosterone sulfate (serum/plasma) - en moles/volume [�mol/L]
+ ,53570-8,"Activated partial Thromboplastin Time, lupus anticoagulant insensitive (platelet poor plasma) - in seconds"
+449021.B,14679-5,Cortisol (serum/plasma) - morning peak [nmol/L]
+ ,45296-1,Cortisol (serum/plasma) - pre dose dexamethasone [nmol/L]
+ ,15044-1,Cortisol free (serum/plasma) - in moles/volume [nmol/L]
+44703A.B,2963-7,Somatotropin (serum/plasma) - in mass/volume [�g/L]
+13705A.B,718-7,Hemoglobin (blood)
+13707F.B,4544-3,Hematocrit (blood)
+13707A.B,789-8,Erythrocytes (blood)
+13707B.B,787-2,Mean corpuscular volume (erythrocytes)
+13707E.B,786-4,Mean corpuscular hemoglobin concentration (erythrocytes)
+13707C.B,788-0,Erythrocyte distribution width (erythrocytes)
+63011S.B,,Erythrocyte morphology: anisocytosis (blood) - light microscopy
+63011T.B,,Erythrocyte morphology: poikilocytosis (blood)  - light microscopy
+63011U.B,,Erythrocyte morphology: macrocytosis (blood) - light microscopy
+63011V.B,,Erythrocyte morphology: microcytosis (blood) - light microscopy
+63011W.B,,Erythrocyte morphology: dacryocytes (blood) - light microscopy
+63011X.B,,Erythrocyte morphology: acanthocytes (blood)  - light microscopy
+63011Y.B,,Erythrocyte morphology: Echinocytes (blood) - light microscopy
+63011Z.B,,Erythrocyte morphology: target cells (blood) - light microscopy
+63012A.B,,Erythrocyte morphology: ovalocytes (blood) - light microscopy
+63012B.B,,Erythrocyte morphology: basophilic stippling (blood) - light microscopy
+63012C.B,,Erythrocyte morphology: hypochromia (blood) - light microscopy
+ ,,Erythrocyte morphology: anisochromia (blood) - light microscopy
+ ,,Erythrocytes morphology: fragmentocytes (blood) - light microscopy
+13703D.B,58413-6,Erythrocytes nucleated / 100 leukocytes (blood) - automated count
+13709A.B,6690-2,Leukocytes (blood) - in #/volume - automated count
+ ,18309-5,Nucleated erythrocytes / 100 leukocytes (blood) - light microscopy
+57139A.B,2160-0,Creatinine (serum/plasma) [mg/dL]
+13513A.B,3091-6,Urea (serum/plasma) [mg/dL]
+57926C.B,35669-1,Amikacin (serum/plasma) [mg/L]
+63035K.B,3319-1,Amikacin peak (serum/plasma) [mg/L]
+ ,2865-4,Protein electrophoresis: alpha 1 globulin (serum/plasma) - in mass/volume
+63036C.B,44917-3,Cortisol post dose dexamethason (serum/plasma) - in moles/volume [nmol/L]
+ ,48065-7,D-dimer (platelet poor plasma) - in mass/volume FEU
+ ,48066-5,D-dimer (platelet poor plasma) - in mass/volume DDU
+ ,68324-3,von Willebrand factor activity: A1 Ab (Platelet poor plasma) - in %
+58121A.B,,"Von Willebrand Factor, Factor VIII Binding Assay (platelet poor plasma) - in %"
+ ,65775-9,Bermuda grass native (nCyn d) 1 IgE (serum) - [kU/L]
+58579_.A,630-4,Culture: micro organisms (urine)
+58579_.A,634-6,Aerobic culture: microorganisms identified (specimen defined elsewhere in the message)
+ ,606-4,Culture: micro organisms (cerebral spinal fluid)
+ ,40435-0,Culture: organism specific: fungi (urine)
+ ,601-5,"Culture, organism specific: fungi (blood)"
+ ,577-7,Culture: organism specific: fungi (sputum)
+ ,27414-2,Culture: organism specific: fungi (stool)
+ ,580-1,Culture: organism specific: fungi (miscellaneous)
+ ,573-6,Culture: organism specific: fungi (nail)
+ ,575-1,Culture: organism specific: fungi (skin)
+ ,18860-7,Antibiotic susceptibility: Amikacin - SRI (isolate)
+ ,,Antibiotic susceptibility: Amikacin - MIC (isolate)
+ ,33959-8,Procalcitonin (serum/plasma)  - in mass/volume
+57427A.U,2828-2,Potassium (urine) - in moles/volume [mmoles/L]
+57433A.U,2955-3,Sodium (urine) - [mmoles/L]
+57379A.U,2078-4,Chloride (urine) [mmol/L]
+ ,2004-0,Calcium (urine) [mmol/L]
+ ,2323-4,Gamma glutamyl transferase (Seminal fluid)
+ ,2350-7,Glucose (urine sample) - in mass/volume 
+ ,32016-8,Glucose (Blood capillary) [mg/dL]
+ ,13539-2,Phosphate (urine) - [mmoles/L]
+57409B.U,2599-9,Magnesium (urine 24h) [mmol/24h]
+ ,14912-0,White blood cell differentiation: Smudge cells (blood) - in % - light microscopy
+ ,2882-9,Protein (pleural fluid)
+ ,2883-7,Protein (Peritoneal fluid)
+ ,1746-7,Albumin (cerebral spinal fluid)
+ ,51480-2,Bacteria (urine) - in #/volume - automated count
+ ,51481-0,Yeasts (urine) - in #/volume - automated count 
+ ,51482-8,Crystals (urine) - in #/volume - automated count
+ ,38459-4,Crystals (urine sediment) - in #/area - light microscopy
+61002A.U,51479-4,Spermatozoa (urine) - in #/volume - automated count
+ ,14920-3,Thyroxine free (serum/plasma) - in moles/volume [pmol/L]
+ ,14928-6,Triiodothyronine free (serum/plasma) - in moles/volume [pmol/L]
+44809A.B,3024-7,Thyroxine free (serum/plasma) - in mass/volume
+bLC3,3051-0,Triiodothyronine free (serum/plasma) - in mass/volume
+ ,18861-5,Antibiotic susceptibility: Amoxicillin - SRI (isolate)
+ ,18862-3,Antibiotic susceptibility: Amoxicillin+Clavulanate  - SRI (isolate)
+ ,18865-6,Antibiotic susceptibility: Ampicillin+Sulbactam - SRI (isolate)
+ ,18872-2,Antibiotic susceptibility: Capreomycin - SRI (isolate)
+ ,32378-2,Antibiotic susceptibility: Caspofungin - SRI (isolate)
+ ,18878-9,Antibiotic susceptibility: Cefazolin - SRI (isolate)
+ ,18879-7,Antibiotic susceptibility: Cefepime - SRI (isolate)
+ ,18886-2,Antibiotic susceptibility: Cefotaxime - SRI (isolate)
+ ,18888-8,Antibiotic susceptibility: Cefoxitin - SRI (isolate)
+ ,18890-4,Antibiotic susceptibility: Cefpodoxime - SRI (isolate)
+ ,18893-8,Antibiotic susceptibility: Ceftazidime - SRI (isolate)
+ ,18895-3,Antibiotic susceptibility: Ceftriaxone - SRI (isolate)
+ ,51724-3,Antibiotic susceptibility: Cefuroxime - SRI (isolate)
+ ,35783-0,Antibiotic susceptibility: Cefuroxime+Axetil - SRI (isolate)
+ ,18903-5,Antibiotic susceptibility: Chloramphenicol - SRI (isolate)
+ ,18906-8,Antibiotic susceptibility: Ciprofloxacin - SRI (isolate)
+ ,18907-6,Antibiotic susceptibility: Clarithromycin - SRI (isolate)
+ ,18908-4,Antibiotic susceptibility: Clindamycin - SRI (isolate)
+ ,18912-6,Antibiotic susceptibility: Colistin - SRI (isolate)
+ ,18998-5,Antibiotic susceptibility: Trimethoprim+Sulfamethoxazole - SRI (isolate)
+ ,18914-2,Antibiotic susceptibility: Cycloserine - SRI (isolate)
+ ,18917-5,Antibiotic susceptibility: Doxycycline - SRI (isolate)
+ ,18919-1,Antibiotic susceptibility: Erythromycin - SRI (isolate)
+ ,18921-7,Antibiotic susceptibility: Ethambutol - SRI (isolate)
+ ,18924-1,Antibiotic susceptibility: Fluconazole - SRI (isolate)
+ ,25596-8,Antibiotic susceptibility: Fosfomycin - SRI (isolate)
+ ,18927-4,Antibiotic susceptibility: Fusidic acid - SRI (isolate)
+ ,18928-2,Antibiotic susceptibility: Gentamicin - SRI (isolate)
+ ,18929-0,Antibiotic susceptibility: Gentamicin high potency - SRI (isolate)
+ ,18932-4,Antibiotic susceptibility: Imipenem - SRI (isolate)
+ ,18934-0,Antibiotic susceptibility: Isoniazid - SRI (isolate)
+ ,18935-7,Antibiotic susceptibility: Kanamycin - SRI (isolate)
+ ,20629-2,Antibiotic susceptibility: Levofloxacin - SRI (isolate)
+ ,18938-1,Antibiotic susceptibility: Lincomycin - SRI (isolate)
+ ,29258-1,Antibiotic susceptibility: Linezolid - SRI (isolate)
+ ,18943-1,Antibiotic susceptibility: Meropenem - SRI (isolate)
+ ,18946-4,Antibiotic susceptibility: Metronidazole - SRI (isolate)
+ ,18948-0,Antibiotic susceptibility: Minocycline - SRI (isolate)
+ ,31039-1,Antibiotic susceptibility: Moxifloxacin - SRI (isolate)
+ ,20389-3,Antibiotic susceptibility: Mupirocin - SRI (isolate)
+ ,18954-8,Antibiotic susceptibility: Netilmicin - SRI (isolate)
+ ,18955-5,Antibiotic susceptibility: Nitrofurantoin - SRI (isolate)
+ ,18956-3,Antibiotic susceptibility: Norfloxacin - SRI (isolate)
+ ,18957-1,Antibiotic susceptibility: Novobiocin - SRI (isolate)
+ ,18959-7,Antibiotic susceptibility: Ofloxacin - SRI (isolate)
+ ,18961-3,Antibiotic susceptibility: Oxacillin - SRI (isolate)
+ ,18964-7,Antibiotic susceptibility: Penicillin - SRI (isolate)
+ ,18969-6,Antibiotic susceptibility: Piperacillin - SRI (isolate)
+ ,18970-4,Antibiotic susceptibility: Piperacillin+Tazobactam - SRI (isolate)
+ ,32383-2,Antibiotic susceptibility: Pristinamycin - SRI (isolate)
+ ,18973-8,Antibiotic susceptibility: Pyrazinamide - SRI (isolate)
+ ,23640-6,Antibiotic susceptibility: Quinupristin+Dalfopristin - SRI (isolate)
+ ,18974-6,Antibiotic susceptibility: Rifampin - SRI (isolate)
+ ,18982-9,Antibiotic susceptibility: Streptomycin - SRI (isolate)
+ ,18989-4,Antibiotic susceptibility: Teicoplanin - SRI (isolate)
+ ,18991-0,Antibiotic susceptibility: Temocillin - SRI (isolate)
+ ,18993-6,Antibiotic susceptibility: Tetracycline - SRI (isolate)
+ ,42357-4,Antibiotic susceptibility: Tigecycline - SRI (isolate)
+ ,19000-9,Antibiotic susceptibility: Vancomycin - SRI (isolate)
+ ,32379-0,Antifungal susceptibility: Voriconazole - SRI (isolate)
+ ,57095-2,Antibiotic susceptibility: Anidulafungin - SRI (isolate)
+ ,32603-3,Antifungal susceptibility: Itraconazole - SRI (isolate)
+ ,54188-8,Antibiotic susceptibility: Posaconazole - SRI (isolate)
+44701A.B,56913-7,Corticotropin morning (plasma)
+449064.B,56914-5,Corticotropin evening (plasma)
+ ,43223-7,Sodium/creatinine (urine) - in moles/g creatinine [mmol/g creatinine]
+ ,56971-5,Potassium/creatinin (urine 24h) - in moles/g creatinin 
+ ,43221-1,Chloride/creatinin (urine) - in moles/g creatinin 
+ ,53640-9,Chloride/creatinine (urine 24h) - in moles/g creatinine  [mmol/g creatinine]
+ ,,Calcium/creatinine (urine) - in moles/g creatinine  [mmol/g creatinine]
+ ,,Calcium/creatinin (urine 24h) - in moles/g creatinin [mmol/g creatinin]
+44933A.B,2986-8,Testosterone (serum/plasma) - in mass/volume
+44935A.B,2991-8,Testosteron free (serum/plasma) - in mass/volume 
+ ,14914-6,Testosteron free (serum/plasma) - in moles/volume [nmol/L] 
+ ,42234-5,Alpha subunit free (serum/plasma)
+44903A.B,3033-8,Transcortin (serum/plasma)
+ ,1657-6,11 deoxycortisol (serum/plasma)
+63036B.B,1854-9,Androstenedione (serum/plasma)
+44939A.B,1848-1,Dihydrotestosteron (serum/plasma)
+ ,46723-3,Alpha 1 microglobulin (urine)
+ ,48415-4,Alpha 1 microglobulin/creatinin (urine)
+ ,32664-5,Ammonia (blood) - in mass/volume 
+ ,2193-1,Dehydroepiandrosterone (serum/plasma) - in mass/volume
+ ,2143-6,Cortisol (serum/plasma) - in mass/volume 
+ ,2145-1,Cortisol free (serum/plasma) - in mass/volume
+44867B.B,1668-3,17-Hydroxyprogesterone (serum/plasma)
+44771A.B,35570-1,Renin (plasma) - in mass/volume
+44913A.B,2191-5,Dehydroepiandrosterone sulfate (serum/plasma) - in mass/volume
+44940A.B,38476-8,Anti-Mullerian hormone (serum/plasma)
+57755A.B,5643-2,Ethanol (serum/plasma)
+50060A.B,13462-7,Apolipoprotein A-I / Apolipoprote�n B (serum/plasma) 
+ ,1870-5,"Apolipoprotein A-2 (serum/plasma) - [g/L] 	 "
+ ,9811-1,Chromogranin A (serum/plasma)  - [�g/L]
+ ,3070-0,Tryptophan (serum/plasma) - in mass/volume
+ ,1908-3,Asparagine (serum/plasma) - in Masse/Volumen
+ ,1903-4,Ascorbate (serum/plasma)
+ ,2999-1,Thiamine (serum/plasma)
+ ,,Alpha-2-Macroglobulin (urine) - in mass/volume
+44866A.B,2837-3,Pregnenolone (serum/plasma) - in mass/volume
+ ,51677-3,17 hydroxypregnenolone - post challenge (serum/plasma)
+44709A.B,3126-0,Vasopressin (plasma)
+57721C.D,2077-6,Chloride (sweat) 
+44751A.B,2333-3,Gastrin (serum/plasma)
+ ,30552-4,Pyridoxal phosphate (serum/plasma) 
+ ,6765-2,17 hydroxypregnenolone (serum/plasma) 
+ ,33762-6,N-terminal Pro-Brain Natriuretic Peptide (serum/plasma) - in mass/volume
+ ,,Antibiotic susceptibility: Amoxicillin+Clavulanate  - MIC (isolate)
+ ,120-6,Antibiotic susceptibility: Cefpodoxime - MIC (isolate)
+ ,133-9,Antibiotic susceptibility: Ceftazidime - MIC (isolate)
+ ,141-2,Antibiotic susceptibility: Ceftriaxone - MIC (isolate)
+ ,51774-8,Antibiotic susceptibility: Cefuroxime - MIC (isolate)
+ ,20460-2,Antibiotic susceptibility: Cefuroxime+Axetil - MIC (isolate)
+ ,161-0,Antibiotic susceptibility: Cephalothin - MIC (isolate)
+ ,173-5,Antibiotic susceptibility: Chloramphenicol - MIC (isolate)
+ ,189-1,Antibiotic susceptibility: Clarithromycin - MIC (isolate)
+ ,193-3,Antibiotic susceptibility: Clindamycin - MIC (isolate)
+ ,516-5,Antibiotic susceptibility: Trimethoprim+Sulfamethoxazole - MIC (isolate)
+ ,225-3,Antibiotic susceptibility: Doxycycline - MIC (isolate)
+ ,233-7,Antibiotic susceptibility: Erythromycin - MIC (isolate)
+ ,241-0,Antibiotic susceptibility: Ethambutol - MIC (isolate)
+ ,249-3,Antibiotic susceptibility: Fluconazole - MIC (isolate)
+ ,25653-7,Antibiotic susceptibility: Fosfomycin - MIC (isolate)
+ ,262-6,Antibiotic susceptibility: Fusidate - MIC (isolate)
+ ,7018-5,Antibiotic susceptibility: Gentamicin high potency - MIC (isolate)
+ ,279-0,Antibiotic susceptibility: Imipenem - MIC (isolate)
+ ,287-3,Antibiotic susceptibility: Isoniazid - MIC (isolate)
+ ,291-5,Antibiotic susceptibility: Kanamycin - MIC (isolate)
+ ,20396-8,Antibiotic susceptibility: Levofloxacin - MIC (isolate)
+ ,299-8,Antibiotic susceptibility: Lincomycin - MIC (isolate)
+ ,29254-0,Antibiotic susceptibility: Linezolid - MIC (isolate)
+ ,6652-2,Antibiotic susceptibility: Meropenem - MIC (isolate)
+ ,327-7,Antibiotic susceptibility: Metronidazole - MIC (isolate)
+ ,31037-5,Antibiotic susceptibility: Moxifloxacin - MIC (isolate)
+ ,35823-4,Antibiotic susceptibility: Mupirocin - MIC (isolate)
+ ,359-0,Antibiotic susceptibility: Netilmicin - MIC (isolate)
+ ,363-2,Antibiotic susceptibility: Nitrofurantoin - MIC (isolate)
+ ,367-3,Antibiotic susceptibility: Norfloxacin - MIC (isolate)
+ ,371-5,Antibiotic susceptibility: Novobiocin - MIC (isolate)
+ ,375-6,Antibiotic susceptibility: Ofloxacin - MIC (isolate)
+ ,383-0,Antibiotic susceptibility: Oxacillin - MIC (isolate)
+ ,6932-8,Antibiotic susceptibility: Penicillin - MIC (isolate)
+ ,408-5,Antibiotic susceptibility: Piperacillin - MIC (isolate)
+ ,412-7,Antibiotic susceptibility: Piperacillin+Tazobactam - MIC (isolate)
+ ,35834-1,Antibiotic susceptibility: Pristinamycin - MIC (isolate)
+ ,424-2,Antibiotic susceptibility: Pyrazinamide - MIC (isolate)
+ ,23641-4,Antibiotic susceptibility: Quinupristin+Dalfopristin - MIC (isolate)
+ ,428-3,Antibiotic susceptibility: Rifampin - MIC (isolate)
+ ,460-6,Antibiotic susceptibility: Streptomycin - MIC (isolate)
+ ,492-9,Antibiotic susceptibility: Temocillin - MIC (isolate)
+ ,496-0,Antibiotic susceptibility: Tetracycline - MIC (isolate)
+ ,42355-8,Antibiotic susceptibility: Tigecycline - MIC (isolate)
+ ,508-2,Antibiotic susceptibility: Tobramycin - MIC (isolate)
+ ,524-9,Antibiotic susceptibility: Vancomycin - MIC (isolate)
+ ,54187-0,Antibiotic susceptibility: Posaconazole - MIC (isolate)
+ ,3521-2,Cyclosporine (serum) - in mass/volume  [�g/L]
+57913B.B,29247-4,Sirolimus (blood) - [ug/L]
+63135D.B,23905-3,Mycophenolate (serum/plasma) - [mg/L]
+ ,32660-3,6-Thioguanine (erythrocytes)
+ ,32654-6,6-Methylmercaptopurine (erythrocytes)
+57909A.B,3422-3,Caffeine (serum/plasma)
+ ,17713-9,Topiramate (serum/plasma) - [mg/L]
+ ,9738-6,Gabapentin (serum/plasma) - [mg/L]
+ ,47414-8,Pregabalin (serum/plasma) - [mg/L]
+ ,30042-6,Vigabatrin (serum/plasma)
+ ,35331-8,Oxcarbazepine (serum/plasma) - [mg/L]
+ ,31019-3,10-Hydroxycarbazepine (serum/plasma)
+ ,4043-6,Teicoplanin (serum/plasma)
+0336....,6463-4,Culture: microorganisms identified (specimen defined elsewhere in the message)
+ ,74871-5,Rivaroxaban (platelet poor plasma) - in mass/volume - chromogenic
+ ,50748-3,Alpha-2-macroglobulin/creatinine (urine)
+ ,16362-6,Ammonia (plasma) - in moles/volume
+ ,73720-5,Pholcodine IgE (serum) - [kU/L]
+19661A.B,63456-8,Dermatophagoides pteronyssinus native (nDer p) 1 IgE (serum) - [kU/L]
+ ,63463-4,Dermatophagoides pteronyssinus native (nDer p) 10 IgE (serum)
+18020A.B,6833-8,Cat dander IgE (serum) - [kU/L]
+ ,58773-3,Dog recombinant (rCan f) 1 IgE (serum) - [kU/L]
+ ,58772-5,Dog recombinant (rCan f) 2 IgE (serum) - [kU/L]
+18030A.B,6099-6,Dog epithelium IgE (serum) - [kU/L]
+ ,10922-3,Bovine serum albumin IgE (serum) - [kU/L]
+ ,64973-1,Dog recombinant (rCan f) 5 IgE (serum) - [kU/L]
+ ,64974-9,Horse recombinant (rEqu c) 1 IgE (serum) - [kU/L]
+ ,64976-4,Cat recombinant (rFel d) 4 IgE (serum) - [kU/L]
+ ,64975-6,Cat recombinant (rFel d) 1 IgE (serum) - [kU/L]
+63038J.B,,Pigeon serum IgE (serum) - [kU/L]
+ ,24165-3,Sugar Beet Seed IgE (serum) - [kU/L]
+63082H.B,7458-3,Lentils IgE (serum) - [kU/L] 
+63035F.B,4057-6,Tobramycin peak (serum/plasma) - [mg/L]
+63035G.B,4059-2,Tobramycin trough (serum/plasma) - [mg/L]
+ ,50650-1,Lupin seed IgE (serum) - [kU/L]
+ ,58986-1,Shrimp recombinant (rPen a) 1 IgE (serum) - [kU/L]
+ ,63476-6,Soybean recombinant (rGly m) 4 IgE (serum) - [kU/L]
+ ,64963-2,Brazil Nut recombinant (rBer e) 1 IgE (serum) - [kU/L]
+ ,66445-8,Carp recombinant (rCyp c) 1 IgE (serum) - [kU/L]
+ ,64960-8,Celery recombinant (rApi g) 1.01 IgE (serum) - [kU/L]
+19980C.B,58776-6,Peach recombinant (rPru p) 1 IgE (serum) - [kU/L]
+ ,58775-8,Peach recombinant (rPru p) 4 IgE (serum) - [kU/L] 
+19980B.B,59391-3,Peach recombinant (rPru p) 3 IgE (serum) - [kU/L]
+ ,58779-0,Peanut recombinant (rAra h) 1 IgE (serum)
+ ,58778-2,Peanut recombinant (rAra h) 2 IgE (serum)
+18341A.B,58753-5,Hazelnut recombinant (rCor a) 8 IgE (serum) - [kU/L]
+ ,63473-3,Codfish recombinant (rGad c) 1 IgE (serum) - [kU/L] 
+18341B.B,69421-6,Hazelnut recombinant (rCor a) 1 IgE (serum) - [kU/L]
+ ,64959-0,Kiwi recombinant (rAct d) 8 IgE (serum) - [kU/L]
+ ,73719-7,Soybean native (nGly m) 5 IgE (serum) - [kU/L]
+ ,65772-6,Soybean native (nGly m) 6 IgE (serum) - [kU/L]
+ ,64966-5,Wheat recombinant (rTri a) 14 IgE (serum) - [kU/L]
+ ,64961-6,Apple recombinant (rMal d) 1 IgE (serum) - [kU/L]
+18341C.B,,Hazelnut recombinant (rCor a) 14 IgE (serum) - [kU/L]
+18341D.B,65765-0,Hazelnut native (nCor a) 9 IgE (serum) - [kU/L]
+ ,81790-8,Walnut recombinant (rJug r) 1 IgE (serum) - [kU/L]
+ ,,Walnut recombinant (rJug r) 3 IgE (serum) - [kU/L] 
+18921B.B,58981-2,Timothy recombinant (rPhl p) 5b IgE (serum) - [kU/L]
+63081D.B,16922-7,Wild rye grass IgE (serum) - [kU/L] 
+ ,30189-5,Grass Allergen Mix 1 IgE (serum) - [kU/L]
+18960B.B,69960-3,Grass Allergen Mix 4 IgE (serum) - [kU/L]
+19010A.B,6844-5,"Honey Bee venom, IgE (serum) - [kU/L]"
+19761C.B,60421-5,Honey bee venom recombinant (rApi m) 1 IgE (serum) - [kU/L]
+ ,60240-9,Common wasp venom recombinant (rVes v) 5 IgE (serum) - [kU/L]
+19761B.B,63436-0,Paper Wasp recombinant (rPol d) 5 IgE (serum) - [kU/L]
+19020A.B,6740-5,Yellow Jacket venom IgE (serum)  - [kU/L]
+19761A.B,58804-6,"European paper wasp venom, IgE (serum) - [kU/L]"
+ ,7600-0,Phospholipase IgE (serum) - [kU/L]
+63118E.B,19746-7,Maleic anhydride IgE (serum) - [kU/L]
+ ,56595-2,Latex recombinant (rHev b) 3 IgE (serum) - [kU/L]
+ ,59395-4,Latex recombinant (rHev b) 9 IgE (serum) - [kU/L]
+ ,50647-7,Latex recombinant (rHev b) 11 IgE (serum) - [kU/L]
+19961A.B,7073-0,Amylase IgE (serum) - [kU/L]
+44361A.U,1953-9,Beta-2-Microglobulin (Urine) - in mass/volume [mg/L]
+ ,4488-3,Complement C3a (serum/plasma) - [g/L]
+ ,13485-8,Beta-2-Microglobulin/Creatinine (urin) - mass ratio [mg/g creat]
+57906E.B,3491-8,Clomipramine (serum/plasma) - [�g/L]
+ ,58984-6,CCD MUXF3 from bromelain IgE (serum) - [kU/L]
+ ,30996-3,Timothy recombinant (rPhl p) 5 IgE (serum) - [kU/L]
+ ,11197-1,Sardine (Sardina pilchardus) IgE (serum) - [kU/L] 
+ ,4505-4,Complement C5 (serum/plasma) - [g/L]
+57217L.B,2403-4,Hemopexin (serum) - [g/L]
+ ,58754-3,Olive pollen native (nOle e) 1 IgE (serum) - [kU/L]
+ ,65778-3,Arizona Cypress native (nCup a) 1 IgE (serum) - [kU/L]
+ ,65780-9,Olive pollen recombinant (rOle e) 9 IgE (serum) - [kU/L]
+19261A.B,60238-3,"European Ash pollen, IgE (serum) - [kU/L] "
+ ,30184-6,"Tree Allergen Mix 1, IgE (serum) - [kU/L]"
+19360C.B,30182-0,Tree Pollen Allergen Mix 7 IgE (serum) - in units/volume [kU/L] 
+19360D.B,50653-5,Tree Pollen Allergen Mix 8 IgE (serum) IgE (serum) - in units/volume [kU/L]
+ ,56882-4,Pellitory (judaica) recombinant (rPar j) 2 IgE (serum) - [kU/L] 
+ ,65782-5,Common Ragweed native (nAmb a) 1 IgE (serum) - [kU/L]
+ ,63458-4,Mugwort native (nArt v) 1 IgE (serum) - [kU/L]
+19360E.B,71371-9,Tree Pollen Allergen Mix 9 IgE (serum) - in units/volume [kU/L]
+19370A.B,6085-5,Common Ragweed IgE (serum) - [kU/L]
+ ,65784-1,Saltwort native (nSal k) 1 IgE (serum) - [kU/L]
+ ,65783-3,Mugwort native (nArt v) 3 IgE (serum) - [kU/L]
+ ,64972-3,English Plantain recombinant (rPla l) 1 IgE (serum) - [kU/L]
+ ,24493-9,Weed Pollen Allergen Mix 2 IgE (serum) - in units/volume [kU/L]
+63049X.B,,Weed Pollen Allergen Mix 3 IgE (serum) - in units/volume [kU/L]
+19570A.B,63197-8,Weed Pollen Allergen Mix 5 IgE (serum) - in units/volume [kU/L]
+19570B.B,63198-6,Weed Pollen Allergen Mix 6 IgE (serum) - in units/volume [kU/L]
+57217N.B,3034-6,Transferrin (serum/plasma) - in mass/volume [g/L]
+ ,18723-7,HEMATOLOGY
+ ,7984-8,Parvovirus B19 IgM (serum) - in units/volume
+19520A.B,6286-9,Wormwood Pollen IgE (Serum) - [kU/L]
+18910A.B,7369-2,Perennial rye grass IgE (serum) - [kU/L]
+ ,18768-2,CELL COUNTS AND DIFFERENTIAL
+57154A.B,18767-4,BLOOD GAS
+ ,18727-8,SEROLOGY
+ ,18721-1,THERAPEUTIC DRUG MONITORING
+ ,18728-6,TOXICOLOGY
+0501....,18722-9,SEMINOLOGY
+ ,18720-3,COAGULATION
+ ,7069-8,Allspice IgE (serum) - [kU/L]
+ ,18729-4,URINALYSIS
+0197....,18716-1,ALLERGOLOGY
+ ,18717-9,BLOOD BANK / TRANSFUSION
+ ,18719-5,CHEMISTRY
+ ,18725-2,MICROBIOLOGY
+ ,50654-3,Grass Allergen Mix 3 IgE (serum) - [kU/L]
+ ,,von Willebrand Factor activity:GP1bR (Platelet poor plasma) - in %
+ ,,von Willebrand Factor activity: GP1bM (Platelet poor plasma) - in %
+58427B.B,7817-0,Borrelia burgdorferi IgG (serum) - units/volume
+ ,58774-1,Alternaria alternata recombinant (rAlt a) 1 IgE  (serum) - [kU/L]
+18021B.B,19732-7,"Cat recombinant serum albumin (nFel d) 2, IgE (serum) - [kU/L]"
+ ,34378-0,Teicoplanine peak (serum/plasma)
+ ,34379-8,Teicoplanin trough (serum/plasma)
+ ,12570-8,Cortisol post challenge (serum/plasma) - in mass/volume
+449017.B,21224-1,Cortisol - 120min post XXX challenge (s�rum/plasma) - in mass/volume
+ ,40275-0,Cortisol - 45 min after XXX challenge (serum/plasma) [nmol/L]
+449015.B,32311-3,Cortisol - 60 min after XXX challenge (serum/plasma) - [nmol/L]
+449016.B,32314-7,Cortisol - 90 min after XXX challenge (serum/plasma) - [nmol/L]
+ ,32312-1,Cortisol - 120 min after XXX challenge (serum/plasma) [nmol/L
+449011.B,32315-4,Cortisol - 0 min before XXX challenge (serum/plasma) [nmol/L]
+ ,48099-6,Cortisol 24:00 (serum/plasma) - in mass/volume
+ ,48103-6,Cortisol 04:00 (serum/plasma) - in moles/volume [nmol/L]
+449014.B,32313-9,Cortisol - 30 min after XXX challenge (serum/plasma)  [nmol/L]
+449014.B,12566-6,Cortisol - 30 min post XXX challenge (s�rum/plasma) - in mass/volume
+63001G.B,56585-3,Cortisol - 45 min post XXX challenge (s�rum/plasma) - in mass/volume
+449015.B,12567-4,Cortisol - 60 min post XXX challenge (s�rum/plasma) - in mass/volume
+449016.B,29363-9,Cortisol - 90 min post XXX challenge (s�rum/plasma) - in mass/volume
+449011.B,43215-3,Cortisol - 0 min before XXX challenge (serum/plasma) - in mass/volume
+ ,48102-8,"Cortisol 04:00 (serum/plasma) - in mass/volume	"
+ ,48104-4,Cortisol 08:00 (serum/plasma) - in mass/volume
+ ,48098-8,Cortisol - 12:00 (serum/plasma) - in mass/volume
+ ,21226-6,Cortisol 16:00 (serum/plasma) - in mass/volume
+ ,48105-1,Cortisol 20:00 (serum/plasma) - in mass/volume
+ ,45050-2,Cortisol 08:00 (serum/plasma) - in moles/volume [nmol/L]
+449022.B,45047-8,Cortisol 12:00 (serum/plasma) - in moles/volume [nmol/L]
+449023.B,45049-4,Cortisol 16:00 (serum/plasma) - in moles/volume [nmol/L]
+449024.B,45051-0,Cortisol 20:00 (serum/plasma) - in Mol/Volumen [nmol/L]
+449025.B,45048-6,Cortisol 24:00 (serum/plasma) - in moles/volume [nmol/L]
+ ,58644-6,Cortisol 24:00 (saliva) - in mass/volume
+ ,39997-2,Glucose - pre XXX challenge (serum/plasma) [mg/dL]
+136512.B,40263-6,Glucose - 30 min post XXX challenge (serum/plasma) [mg/dL]
+136513.B,12646-6,Glucose - 60 min post XXX challenge (serum/plasma) [mg/dL]
+136514.B,40003-6,Glucose - 90 min post XXX challenge (serum/plasma) - [mg/dL]
+136515.B,12610-2,Glucose - 120 min post XXX challenge (serum/plasma) - [mg/dL]
+136518.B,29332-4,Glucose - 180 min post XXX challenge (serum/plasma) - [mg/dL]
+ ,29331-6,Glucose - 300min post XXX challenge (serum/plasma) - [mg/dL]
+ ,21309-0,Glucose - 45min post XXX challenge (serum/plasma) - [mg/dL]
+ ,32995-3,Luteinising hormone 20 min post XXX challenge (serum/plasma) - in units/volume [U/L]
+ ,65350-1,Follicle stimulating hormone pre or post XXX challenge (serum/plasma)
+ ,75008-3,"Dog native (nCan f) 1, IgE (serum) - [kU/L]"
+63000R.B,21668-9,Factor V Leiden 
+ ,205-5,Antibiotic susceptibility: Colistin - MIC (isolate)
+ ,213-9,Antibiotic susceptibility: Cycloserine - MIC (isolate)
+ ,108-1,Antibiotic susceptibility: Cefotaxime - MIC (isolate)
+ ,116-4,Antibiotic susceptibility: Cefoxitin - MIC (isolate)
+58581_.A,635-3,Anaerobic culture: microorganisms identified (specimen defined elsewhere in the message)
+58587B.F,,Culture: organism specific: Clostridium difficile (stool)
+57133J.B,43396-1,non-High density lipoprotein  cholesterol (serum/plasma)
+63031E.B,,"Epstein Barr virus nuclear antigen, IgG (serum) - presence"
+ ,47982-4,Epstein Barr virus DNA (serum/plasma) - in #/volume - viral load
+ ,32585-2,Epstein Barr virus DNA (xxx) - in #/volume - viral load
+ ,32286-7,Hepatitis C virus genotype (serum/plasma)
+ ,20416-4,Hepatitis C virus RNA (serum/plasma) - in #/volume - viral load
+63329N.B,30247-1,Cytomegalovirus DNA (serum/plasma) - in #/volume - viral load
+58451C.B,7853-5,Cytomegalovirus IgM (serum) -  in units/volume
+ ,,Rubella IgM (serum)- presence
+58483A.B,7962-4,Measles IgG (serum) - in units/volume
+ ,,Measles IgM (serum) - presence
+58479A.B,7966-5,Mumps virus IgG (serum) - in units/volume
+ ,49434-4,Parvovirus B19 DNA (serum/plasma) - in #/volume - viral load
+58501A2B,22228-1,Coxsackievirus B2 Ab (serum) - titer
+58501A3B,22230-7,Coxsackievirus B3 Ab (serum) - titer
+58501A4B,22232-3,Coxsackievirus B4 Ab (serum) - titer 
+ ,22236-4,Coxsackievirus B6 Ab (serum) - titer
+ ,20447-9,HIV 1 RNA (serum/plasma) - in #/volume - viral load
+63340A.B,,Borrelia burgdorferi IgG (serum) - immunoblot
+63340B.B,,Borrelia burgdorferi IgM (serum) - immunoblot 
+58427C.B,7818-8,Borrelia burgdorferi IgM (serum) - in units/volume
+ ,,Borrelia burgdorferi IgM (CSF) - presence - immunoblot
+58422C.C,22133-3,Borrelia burgdorferi IgM (CSF) - in units/volume
+ ,,Borrelia burgdorferi IgG (CSF) - presence - immunoblot
+58422B.C,22126-7,Borrelia burgdorferi IgG (CSF)
+ ,,Borrelia burgdorferi DNA (xxx) - presence
+58419A.B,,Treponema pallidum Ab (serum) - immunofluorescence
+58499B2B,13914-7,Adenovirus IgG (serum)
+ ,,Adenovirus IgM (serum) - presence
+58499B1B,5042-7,Adenovirus IgM (serum) - in units/volume [index]
+ ,13915-4,Adenovirus IgM (serum) - titer
+ ,,Herpes simplex 1 & 2 IgM (serum) - presence
+58465C.B,43030-6,Herpes simplex 1 & 2 IgM (serum) - in units/volume
+58465A.B,31411-2,Herpes simplex 1+2 IgG (serum) - in units/volume
+ ,49381-7,Herpes simplex virus 1+2 DNA (xxx) - in #/volume - viral load
+ ,5212-6,Herpes virus 6 IgM (serum) - in units/volume
+ ,5211-8,Herpes virus 6 IgG (serum) - in units/volume 
+ ,38349-7,Human herpesvirus 6 DNA (xxx) - in #/volume - viral load
+ ,49451-8,Varicella zoster virus DNA (xxx) - in #/volume - viral load
+ ,53256-4,Enterovirus RNA (xxx) - in #/volume - viral load
+ ,,Human papilloma virus DNA (xxx) - presence
+ ,49096-1,Chlamydia trachomatis DNA (xxx) - presence
+ ,,Chlamydia pneumoniae DNA (xxx) - presence
+63032G.B,31304-9,Chlamydia pneumoniae IgM (serum)
+63032F.B,31302-3,Chlamydia pneumoniae IgG (serum)
+ ,49413-8,JC Polyoma virus DNA (serum/plasma) - in #/volume - viral load
+ ,49410-4,JC Polyoma virus DNA (CSF) - in #/volume - viral load
+ ,49411-2,JC Polyoma virus DNA (urine) - in #/volume - viral load
+ ,49412-0,JC Polyoma virus DNA (xxx) - in #/volume - viral load
+ ,53255-6,Mycoplasma pneumoniae DNA (xxx) - in #/Volumen
+ ,7916-0,Histoplasma capsulatum Ab (serum) - in units/volume
+ ,51771-4,Histoplasma capsulatum DNA (xxx) - in #/volume
+13913_.A,664-3,Gram stain
+ ,,Cryptosporidium (stool) - acid fast stain
+ ,32326-1,Luteinising hormone 30min post XXX challenge (serum/plasma) - in units/volume [U/L]
+ ,32327-9,Luteinising hormone 60 min post XXX challenge (serum/plasma) - in units/volume [U/L]
+44712A.B,38926-2,Macroprolactin (serum/plasma)
+447072.B ,21275-3,Follicle stimulating hormone 15 min post LHRH (serum/plasma) - [U/L]
+447073.B ,57100-0,Follicle stimulating hormone 30 min post LHRH (serum/plasma) - [U/L]
+447074.B ,57099-4,Follicle stimulating hormone 60 min post LHRH (serum/plasma) - [U/L] 
+ ,27883-8,Luteinising hormone 15 min post XXX challenge (serum/plasma) - in units/volume [U/L]
+ ,58946-5,Luteinising hormone pre XXX challenge (serum/plasma) - in units/volume [U/L]  
+ ,56493-0,Luteinising hormone 10 min post XXX challenge (serum/plasma) - in units/volume [U/L]
+ ,24-0,Antibiotic susceptibility: Amphotericin B - MIC (isolate)
+ ,57097-8,Follicle stimulating hormone 10 min before LHRH (serum/plasma) 
+ ,81792-4,"Dermatophagoides pteronyssinus native (nDer p) 2, IgE (serum) "
+ ,52754-9,High molecular weight Kininogen (platelet poor plasma) - one stage clotting assay - in %
+ ,14957-5,Albumin (urine) - in mass/volume
+ ,14959-1,Albumin/creatinine (urine)
+ ,51844-9,Cortisol (saliva) - in moles/volume
+44701A.B,2141-0,Corticotropin (plasma)
+ ,48999-7,Urea (urine 24h) - in mass/time
+58157B.B,6683-7,Reptilase time (platelet poor plasma) - in seconds
+ ,24480-6,Weed Pollen Allergen Mix 1 IgE (serum) - in units/volume [kU/L]
+ ,335-0,Antibiotic susceptibility: Minocycline - MIC (isolate)
+ ,55343-8,Antibiotic susceptibility: Anidulafungin - MIC (isolate)
+ ,32-3,Antibiotic susceptibility: Ampicillin+Sulbactam - MIC (isolate)
+ ,56-2,Antibiotic susceptibility: Capreomycin - MIC (isolate)
+ ,54176-3,Antibiotic susceptibility: Caspofungin - MIC (isolate)
+ ,76-0,Antibiotic susceptibility: Cefazolin - MIC (isolate)
+ ,6644-9,Antibiotic susceptibility: Cefepime - MIC (isolate)
+ ,484-6,Antibiotic susceptibility: Teicoplanin - MIC (isolate)
+ ,35863-0,Antibiotic susceptibility: Voriconazole - MIC (isolate)
+ ,25452-4,Antibiotic susceptibility: Itraconazole - MIC (isolate)
+ ,47003-9,Varicella zoster virus DNA (serum/plasma) - in #/volume - viral load
+63327E.C,62465-0,Toxoplasma gondii DNA (CSF) - in #/volume
+ ,49334-6,Adenovirus DNA (serum/plasma) - viral load
+ ,,HEMOSTASIS
+ ,,Borrelia burgdorferi DNA (blood) - presence
+ ,22226-5,Coxsackievirus B1 Ab (serum) - titer
+ ,49449-2,Toxoplasma gondii DNA (serum/plasma) - in #/volume
+ ,46098-0,Gender
+ ,63477-4,Peanut recombinant (rAra h) 8 IgE (serum) - [kU/L]
+ ,64965-7,Peanut recombinant (rAra h) 9 IgE (serum) - [kU/L]
+ ,90880-6,Peanut recombinant (rAra h) 6  IgE (serum) - [kU/L]
+57159A.B,1963-8,Bicarbonate (serum/plasma) [mmol/L]
+63082W.B,6829-6,Amoxicillin IgE (serum) - [kU/L]
+ ,28652-6,Danaparoid sodium (platelet poor plasma) - in units/volume - chromogenic method
+ ,7782-6,Yam IgE - [kU/L]
+57183B.B,59261-8,Hemoglobin A1c (blood) - in mmol/mol - IFCC protocol 
+ ,20448-7,Insulin (serum/plasma) - in units/volume  [mU/L]
+ ,58777-4,Peanut recombinant (rAra h) 3 IgE (serum) - [kU/L]
+58415A.B,50690-7,Reagin Ab VDRL (serum)
+13713..B,69738-3,White blood cell differentiation (blood)
+ ,11159-1,Alkalase IgE (serum) - [kU/L]
+ ,6250-5,"Spiny Pigweed pollen, IgE (serum) - [kU/L]"
+ ,73710-6,Weed Pollen Allergen Mix 209 IgE (serum) - in units/volume [kU/L]
+ ,82045-6,Weed Pollen Allergen Mix 7 IgE (serum) - in units/volume [kU/L]
+57907C.B,12389-3,Olanzapine (serum/plasma) - in massa/volume
+63011A.U,50949-7,Albumin  (urine) - presence
+ ,50551-1,Bilirubin (urine) - presence - test strip
+ ,1904-2,Ascorbate (urine) - presence
+ ,30325-5,Cytomegalovirus IgM (serum) - presence
+63121M.A,52984-2,Cytomegalovirus IgG avidity (serum) - immunoassay
+13900N.U,50555-2,Glucose (urine) - presence - test strip
+57710A.D,77147-7,Estimated glomerular filtration rate - MDRD
+ ,48642-3,Estimated glomerular filtration rate - MDRD - non blacks
+ ,57751-0,Hemoglobin (urine) - presence - test strip
+57710F.D,62238-1,Estimated glomerular filtration rate - CKD-EPI
+ ,50560-2,pH (urine) - test strip
+ ,50558-6,Nitrite (urine) - presence - test strip 
+06590A..,5634-1,Cyanide (Blood) - in mass/volume
+ ,1799-6,Amylase (urine sample) - enzymatic activity/volume
+58203E.B,978-7,Rhesus D Ag (erythrocytes)
+58205A.B,972-0,Rhesus Du Ag (erythrocytes)
+58203A.B,948-0,Rhesus big C Ag (erythrocytes)
+58203C.B,1021-5,Rhesus E Ag (erythrocytes)
+58203B.B,1159-3,Rhesus little c Ag (erythrocytes)
+58203D.B,1165-0,Rhesus little e Ag (erythrocytes)
+58207A.B,960-5,Rhesus Cw Ag (erythrocytes)
+ ,75693-2,Fetal sex (maternal blood) - non-invasive genetic test
+ ,75978-7,Fetal risk of trisomy 18 (maternal blood) - non-invasive genetic test
+ ,14576-3,"Blood group antibody, senior interpretation "
+63032M.B,31147-2,Reagin Ab RPR (serum)
+ ,7065-6,"Alfalfa pollen, IgE - [kU/L]"
+ ,81791-6,Apple recombinant (rMal d) 3 IgE (serum) - [kU/L]
+ ,82572-9,Silver Birch recombinant (rBet v) 6 IgE (serum) - [kU/L]
+ ,82613-1,"Honey bee venom recombinant (rApi m) 10 (Icarapin), IgE (serum) - [kU/L]"
+ ,30170-5,American Cockroach IgE (serum) [kU/L]
+63151J.B,30471-7,Levetiracetam (serum/plasma) - in mass/volume
+63038I.B,10948-8,Pigeon feather IgE (serum) - [kU/L]
+58111B.B,,Antithrombin (anti-IIa) (platelet poor plasma) - in % - chromogenic method
+ ,,Antithrombin (anti-Xa) (platelet poor plasma) - in % - chromogenic method
+63011D.B,1027-2,Duffy a Ag (erythrocytes) - presence
+63011E.B,1033-0,Duffy b Ag (erythrocytes) - presence
+ ,,"Olive pollen recombinant (r Ole e) 1, IgE (serum) - [kU/L]"
+ ,94500-6,SARS-Coronavirus-2 RNA (respiratory) - presence 
+ ,94547-7,SARS-Coronavirus-2 IgG+IgM (serum/plasma) - presence
+ ,94505-5,SARS-Coronavirus-2 IgG (serum/plasma) - in units/volume
+ ,94564-2,SARS-Coronavirus-2 IgM (serum/plasma) - presence
+ ,94558-4,SARS-Coronavirus-2 Ag (respiratory) � presence � rapid immunoassay
+ ,7720-6,"Stemphylum solani, IgE (serum) - [kU/L]"
+ ,94309-2,SARS-Coronavirus-2 RNA - (XXX) - presence
+ ,94507-1,SARS-Coronavirus-2 IgG (serum/plasma/blood) - presence - rapid immunoassay
+ ,94508-9,SARS-Coronavirus-2 IgM (serum/plasma/bloed) - presence - rapid immunoassay
+ ,94661-6,SARS-Coronavirus-2 Ab (serum/plasma) - interpretation
+ ,32018-4,Hepatitis A virus IgG (serum) - presence
+58455A.B,5195-3,Hepatitis B virus surface Ag (serum) - presence
+ ,7906-1,Hepatitis D virus RNA (serum) - presence
+ ,11259-9,Hepatitis C virus RNA (serum/plasma) - presence
+58464B.B,22330-5,Hepatitis D virus Ab (serum) - in units/volume
+63083Z.B,10961-1,Rabbit urine proteins IgE (serum) - [kU/L]
+ ,42329-3,Bordetella pertussis IgM (serum) - in units/volume
+ ,42330-1,Bordetella pertussis IgG (serum) - in units/volume
+ ,29674-9,Bordetella pertussis IgG (serum) - presence
+ ,29673-1,Bordetella pertussis IgM (serum) - presence
+ ,29672-3,Bordetella pertussis IgA (serum) - presence
+ ,43913-3,Bordetella pertussis DNA (nasopharynx) - presence
+ ,17934-1,"Anaerobic culture, bacteria identified (blood)"
+ ,82448-2,TIF1-gamma Ab (serum) - presence - Line blot
+ ,94563-4,SARS-Coronavirus-2 IgG (serum/plasma) - presence
+ ,54161-5,ANA cytoplasmic dense fine speckled pattern [AC-19] (serum) - presence
+ ,53994-0,ANA centrosome pattern [AC-24] (serum) - presence
+ ,53990-8,ANA mitotic chromosomal pattern [AC-28] (serum) - presence
+ ,94759-8,SARS-Coronavirus-2 RNA (nasopharynx) - presence
+ ,94845-5,SARS-Coronavirus-2 RNA (saliva) - presence
+ ,94746-5,SARS-coronavirus-2 RNA (XXX) - cycle threshold - NAA with probe detection
+ ,94510-5,SARS-coronavirus-2 N-gene (XXX) - cycle threshold - NAA with probe detection
+ ,94511-3,SARS-coronavirus-2 ORF1ab region (XXX) - cycle threshold - NAA with probe detection
+ ,94643-4,SARS-coronavirus-2 S-gene (XXX) - cycle threshold - NAA with probe detection
+ ,94645-9,SARS-coronavirus-2 RdRp gene (XXX) - cycle threshold - NAA with probe detection
+ ,96119-3,SARS-Coronavirus-2 Ag (upper respiratory) � presence � immunoassay
+63013S.B,55774-4,Direct Coombs C3d - (erythrocytes)
+ ,94819-0,SARS-Coronavirus-2 RNA (XXX) - in Log #/volume - viral load
+ ,65222-2,Symptom onset: date:time 
+ ,,SARS-Coronavirus-2 variant (XXX) - type -  sequencing
+ ,66714-7,Common wasp venom recombinant (rVes v) 1 IgE (serum) - [kU/L]
+19661C.B,63457-6,Dermatophagoides pteronyssinus recombinant (rDer p) 2 IgE (serum)
+63082K.B,7091-2,Apricot IgE (serum)  - [kU/L]
+13553A.B,1742-6,Alanine aminotransferase (serum/plasma) [U/L]
+ ,61152-5,Albumin (serum/plasma) - in mass/volume [g/L] - colorimetrisch
+19440A.B,6118-4,Firebush IgE (serum) - [kU/L]
+ ,8302-2,Patient's body height - in cm
+58201E_B,51892-8,ABO group (Cord blood)
+ ,42216-2,Reference Lab Name
+ ,94764-8,SARS-CoV-2 whole genome (XXX) - nucleotide sequence - sequencing
+ ,92496-9,Kell Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,92489-4,Cellano Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,,"SARS-Coronavirus-2, variant suspected (XXX) - type - NAA with probe detection"
+ ,,SARS-Coronavirus-2 variant (XXX) - type - NAA with probe detection
+ ,92495-1,Kpa Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,92494-4,Kpb Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,92505-7,Duffy a Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,92504-0,Duffy b Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,92501-6,Kidd a Ag inferred phenotype (Blood or Tissue) - presence - molecular genetics
+ ,17928-3,Aerobic culture: bacteria identified (blood)
+ ,34196-6,Anti-C antibody (serum/plasma) - titer
+ ,55334-7,Anti-Cellano antibody (serum/plasma) - titer
+ ,55321-4,Anti-Cw antibody (serum/plasma) - titer
+ ,1304-5,Anti-D antibody (serum/plasma) - titer
+ ,33977-0,Anti-Duffy a antibody (serum/plasma) - titer
+ ,55322-2,Anti-Duffy b antibody (serum/plasma) - titer
+ ,34602-3,Anti-E antibody (serum/plasma) - titer
+ ,34603-1,Anti-I antibody (serum/plasma) - titer
+ ,55325-5,Anti-Jsa antibody (serum/plasma) - titer
+ ,55597-9,Anti-Jsb antibody (serum/plasma) - titer
+ ,34738-5,Anti-K antibody (serum/plasma) - titer
+ ,55323-0,Anti-Kidd a antibody (serum/plasma) - titer
+ ,55324-8,Anti-Kidd b antibody (serum/plasma) - titer
+ ,55326-3,Anti-Kpa antibody (serum/plasma) - titer
+ ,55327-1,Anti-Kpb antibody (serum/plasma) - titer
+ ,55328-9,Anti-Lewis a antibody (serum/plasma) - titer
+ ,34604-9,Anti-M antibody (serum/plasma) - titer
+ ,55336-2,Anti-N antibody (serum/plasma) - titer
+ ,55337-0,Anti-P1 antibody (serum/plasma) - titer
+ ,33920-0,Anti-S antibody (serum/plasma) - titer
+ ,55332-1,Anti-c antibody (serum/plasma) - titer
+ ,34157-8,Anti-e antibody (serum/plasma) - titer
+ ,55333-9,Anti-f antibody (serum/plasma) - titer
+ ,15344-5,Anti-i antibody (serum/plasma) - titer
+ ,55335-4,Anti-s antibody (serum/plasma) - titer
+ ,18863-1,Antibiotic susceptibility: Amphotericin B - SRI (isolate)
+ ,18864-9,Antibiotic susceptibility: Ampicillin - SRI (isolate)
+ ,185-9,Antibiotic susceptibility: Ciprofloxacin - MIC (isolate)
+ ,22159-8,Brucella sp Ab (serum) - titer
+57123A.B,47596-2,Calcium ionized measured (blood) - in moles/volume [mmol/L]
+ ,1986-9,C-peptide (serum/plasma) - in mass/volume
+58158A.B,5894-1,Quick Prothrombin time (platelet poor plasma) - in %
+ ,34437-4,Coxsackievirus B Ab panel (serum) - request
+58501A5B,22234-9,Coxsackievirus B5 Ab (serum) - titer
+ ,58709-7,Deamidated gliadin peptide IgA (serum) -  in units/volume
+ ,58710-5,Deamidated gliadin peptide IgG (serum) - in units/volume
+ ,,Direct antiglobulin test  C3c specific reagent - (erythrocytes)  - presence
+63013N.B,,Direct antiglobulin test.IgG specific reagent - (erythrocytes)
+58233_.B,,Direct antiglobulin test.poly specific reagent - (erythrocytes)
+ ,95128-5,Edoxaban (platelet poor plasma) - in mass/volume - chromogenic method
+ ,11277-1,Epithelial cells squamous (urine sediment) - in #/area - high power field light microscopy 
+ ,41284-1,Epithelial cells.non-squamous (urine sediment) - in #/area - high power field light microscopy
+58475J.B,22293-5,Epstein Barr virus early antigen Ab (serum) - presence
+ ,30340-4,Epstein-Barr Virus capside antigen IgM (serum) - presence
+58476B.B,7886-5,Epstein-Barr virus capside antigen IgM (serum) - in units/volume
+63200H.B,7793-3,"Erythrocytes, Howell-Jolly bodies (Blood) - presence - light microscopy"
+58115A.B,3289-6,Factor II (platelet poor plasma)  - in % - one stage clotting assay
+58127A.B,3187-2,Factor IX (platelet poor plasma) - in % - one stage clotting assay
+58115B.B,3193-0,Factor V (platelet poor plasma)  - in % - one stage clotting assay
+58119A.B,3198-9,Factor VII (platelet poor plasma) - in % - one stage clotting assay
+58121A.B,3209-4,Factor VIII (platelet poor plasma) -  in % - one stage clotting assay
+58119B.B,3218-5,Factor X (platelet poor plasma)  - in % - one stage clotting assay
+58129A.B,3226-8,Factor XI (platelet poor plasma) - en % - one stage clotting assay
+58131A.B,3232-6,Factor XII (platelet poor plasma) - in % - one stage clotting assay
+58165A.B,55452-7,Fibrinogen (platelet poor plasma) - in mass/volume 
+ ,3255-7,Fibrinogen (platelet poor plasma) - in mass/volume - Clauss
+ ,48664-7,Fibrinogen (platelet poor plasma) - in mass/volume - PT based method
+ ,35383-9,Galactomannan Ag (serum/plasma) - in units/volume 
+ ,35671-7,Galactomannan Ag (xxx) - in units/volume
+0997....,77202-0,General comments
+ ,33719-6,Flow cytometry report (XXX) 
+63012R.U,13362-9,Collection duration (urine)
+ ,,SARS-Coronavirus-2 variant (XXX) - type - Sanger sequencing
+ ,94509-7,SARS-related coronavirus E gene (XXX) - NAA with probe detection
+ ,24475-6,Prothrombin G20210A
+63044Q.B,3389-4,Benzodiazepines (serum/plasma) - Identification
+63256I.A,17122-3,Kappa B lymphocytes  (bloed) - in %
+63256I.A,17123-1,Lambda B lymphocytes (blood) - in %
+ ,74214-8,Apixaban (platelet poor plasma) - in mass/volume - chromogenic method
+ ,74220-5,Dabigatran (platelet poor plasma)  - in mass/volume - coagulometric
+ ,68980-2,Dabigatran (platelet poor plasma)  - in mass/volume - chromogenic method
+63011A.B,1195-7,Little k Ag (erythrocyte)
+58483C.B,7963-2,Measles IgM (serum) - in units/volume
+58479C.B,7967-3,Mumps virus IgM (serum) - in units/volume
+ ,52759-8,Prekallikreine (platelet poor plasma) - one stage clotting assay - in %
+ ,57735-3,Protein (urine) - presence - test strip 
+ ,7643-0,"Radish, IgE (serum) - [kU/L]"
+ ,68966-1,Respiratory syncytial virus Ag (nasopharynx)
+ ,49549-9,Reference lab test method
+ ,49448-4,Toxoplasma gondii DNA
+63223C.B,31017-7,Tissue transglutaminase IgA (serum) - in units/volume
+ ,40988-8,Respiratory syncytial virus RNA (xxx) - presence
+ ,53326-5,Specific gravity (urine) - test strip 
+63031Q.B,22327-1,Hepatitis C virus Ab (serum) - in units/volume
+44603A.B,13248-0,Hepatitis D virus Ab (serum) -- Gegenwart 
+ ,8277-6,body surface area of the patient
+ ,9679-2,Squamous cell carcinoma Ag (serum/plasma) - [�g/L]
+ ,12934-6,Thyroid Stimulating Hormone 15min post XXX challenge (serum/plasma) - [mU/L]
+ ,29316-7,Thyroid Stimulating Hormone 30min post XXX challenge (serum/plasma) - [mU/L]
+ ,29317-5,Thyroid Stimulating Hormone 60min post XXX challenge (serum/plasma) - [mU/L]
+ ,55362-8,Thyroid Stimulating Hormone pre XXX challenge (serum/plasma) - [mU/L]
+ ,48700-9,"Thyrotropin releasing hormone, dose"
+ ,32998-7,Tissue transglutaminase IgG (serum) - in units/volume
+57223C.B,2502-3,Total iron-binding capacity saturation (serum/plasma) - in %
+ ,9741-0,Toxoplasma gondii IgG (CSF)
+ ,25542-2,Toxoplasma gondii IgM (serum) - presence
+ ,12949-4,Transferrin carbohydrate deficient (serum/plasma)
+58417A.B,26009-1,Treponema pallidum Ab (serum) - titer - TPHA 
+ ,22592-0,Treponema pallidum IgG (serum) - in units/volume
+63003N.B,6015-2,Wattle IgE (serum) - [kU/L]
+ ,62487-4,Urobilinogen (urine) - presence - test strip
+58469A.B,8047-3,Varicella zoster virus IgG (serum)
+58469C.B,8048-1,Varicella zoster virus IgM (serum)
+ ,55329-7,anti-Lewis b antibody (serum/plasma) - titer
+ ,55331-3,anti-Lutheran a antibody (serum/plasma) - titer
+ ,55330-5,anti-Lutheran a antibody (serum/plasma) - titer
+ ,58081-1,anti-Vel antibody (serum/plasma)
+ ,55341-2,anti-Xga antibody (serum/plasma) - titer
+ ,7316-3,Gulf flounder IgE (serum) - [kU/L]
+58461A.B,22320-6,Hepatitis B e-antigen Ab (serum) - presence
+58503M.B,31201-7,HIV 1 & 2 Ab (serum) - presence
+ ,56888-1,HIV 1+2 Ab & p24 Ag (serum) - screening
+63225B.B,44873-8,HIV 1 & 2 Ab confirmation (serum) -  presence - immunoblot
+58463A.B,16933-4,Hepatitis B virus core Ab (serum) - presence
+ ,267-5,Antibiotic susceptibility: Gentamicin - MIC (isolate)
+ ,58947-3,Follicle stimulating hormone pre XXX challenge (serum/plasma) - in units/volume
+13575W.U,21305-8,Glucose (urine 24h) - in mass/volume
+ ,12935-3,Thyroid Stimulating Hormone 20min post XXX challenge (serum/plasma) - [mU/L]
+447130.B,3016-3,Thyroid Stimulating Hormone (serum/plasma)
+ ,20633-4,1-Methylhistidine (serum/plasma) - in moles/volume
+00510A\\,8149-7,Amphetamines (serum/plasma) - screening
+63101A.B,5902-2,Quick Prothrombin time (platelet poor plasma) - in seconds
+63067R.B,58445-8,General comments hematology
+63126R.B,6896-5,Clozapine (serum/plasma) - in mass/volume [�g/L]
+57907A.B,10992-6,Norclozapine (serum/plasma) - in mass/volume 
+58341S.B,29374-6,Ribonucleoprotein extractable nuclear Ab (serum) - in units/volume
+63114T.B,3872-9,Nortriptyline (serum/plasma) - [�g/L]
+13713E.B,731-0,White blood cell differentiation: Lymphocytes (blood) - in #/volume - automated count
+57905N.B,6948-4,Lamotrigine (serum/plasma) - [mg/L]
+63336B.B,50544-6,Everolimus (blood)
+63048C.B,8112-5,Lymphocytes CD3-CD16+CD56+ (blood)  - in %
+44703B.B,2484-4,Insulin-like growth factor-I (serum/plasma) - in mass/volume
+57218X.B,30152-3,Mannose binding protein (serum)
+44901B.M,2142-8,Cortisol (saliva) - in massa/volume
+63108T.B,46976-7,"Benzodiazepines (serum/plasma) - screening	"
+57931E.B,38370-3,Voriconazole (serum/plasma)
+ ,26608-0,Ethanolamine (serum/plasma) - in moles/volume
+57203L.B,20637-5,Arginine (serum/plasma) - in moles/volume
+57204F.B,20640-9,Citrulline (serum/plasma) - in moles/volume
+ ,20635-9,3-Methylhistidine (serum/plasma) - in moles/volume
+57203Y.B,3118-7,Valine (serum/plasma)  - in mass/volume
+57203Y.B,20661-5,Valine (serum/plasma) - in moles/volume
+57204D.B,32227-1,Argininosuccinate (serum/plasma) - in moles/volume
+57203N.B,20639-1,Aspartate (serum/plasma) - in moles/volume
+ ,1913-3,Aspartate (serum/plasma) - in mass/volume
+57203Q.B,20644-1,Glycine (serum/plasma) - in moles/volume
+57203M.B,20638-3,Asparagine (serum/plasma) - in moles/volume
+57203R.B,20648-2,Isoleucine (serum/plasma) - in moles/volume
+ ,22670-4,Alloisoleucine (serum/plasma) - in moles/volume
+ ,2765-6,Phenylalanine (serum/plasma) - in mass/volume
+57203A.B,14875-9,Phenylalanine (serum/plasma) - in moles/volume
+ ,3079-1,Tyrosine (serum/plasma) - in mass/volume
+57203B.B,20660-7,Tyrosine (serum/plasma) - in moles/volume
+ ,2845-6,Proline (serum/plasma) - in mass/volume
+ ,2446-3,Hydroxyproline (serum/plasma) - in mass/volume
+57203V.B,20655-7,Proline (serum/plasma) - in moles/volume
+57203H.B,20647-4,Hydroxyproline (serum/plasma) - in moles/volume
+57203U.B,20651-6,Methionine (serum/plasma) - in moles/volume
+ ,2936-3,Serine (serum/plasma) - in mass/volume
+57203W.B,20656-5,Serine (serum/plasma)  - in moles/volume
+ ,26604-9,Beta-alanine (serum/plasma) - in moles/volume
+57203K.B,20636-7,Alanine (serum/plasma) - in moles/volume
+57203K.B,1737-6,Alanine (serum/plasma) - in mass/volume
+57203X.B,3008-0,Threonine (serum/plasma) - in mass/volume
+57203X.B,20658-1,Threonine (serum/plasma) - in moles/volume
+ ,32334-5,Pipecolate (serum/plasma) - in moles/volume
+ ,47939-4,Sulfocysteine (serum/plasma) - in moles/volume
+57203T.B,20650-8,Lysine (serum/plasma) - in moles/volume
+57203I.B,20659-9,Tryptophan (serum/plasma) - in moles/volume
+63103A.B,35083-5,Amino acids panel (serum/plasma)
+ ,16128-1,Hepatitis C virus Ab (serum) - presence
+20620A.B,22671-2,Phytanate (serum / plasma) - in moles/volume
+57203L.B,1893-7,Arginine (serum/plasma) - in mass/volume
+ ,65792-4,"Horseradish Peroxidase (nArm r), IgE (serum) - [kU/L]"
+ ,57734-6,Ketones (urine) - presence - test strip
+ ,60026-2,Leukocyte esterase (urine) - presence - test strip
+63011B.B,1102-3,Kpa Ag (erythrocytes) - presence
+ ,3167-4,Volume (urine 24h)
+63051X.B,9821-0,HIV p24 Ag (serum) - presence
+ ,32685-0,Hepatitis B virus core IgG (serum) - presence
+58457A.B,31844-4,Hepatitis B virus little e Ag (serum) - presence
+58459A.B,16935-9,Hepatitis B virus surface Ab (serum) - in units/volume
+63151L.U,10366-3,Cotinine (urine) - in mass/volume
+58301G.B,27893-7,CD23+ B lymphocytes (blood) - in %
+ ,4532-8,Complement total hemolytic CH50 (serum/plasma) - in units/volume
+57913H.B,74117-3,Adalimumab (serum/plasma) - in mass/volume
+63140F.B,7981-4,Parvovirus B19 IgM (serum) - presence
+63140E.B,7983-0,Parvovirus B19 IgG (serum) 
+57269A.B,14804-9,Lactate dehydrogenase (serum/plasma) [U/L]
+ ,14805-6,"Lactate dehydrogenase (serum/plasma) - (pyruvate to lactate method) - [U/L]	"
+ ,3392-8,Benzoylecgonine (serum/plasma) - in mass/volume
+63006N.U,2232-7,Epinephrine (urine 24h) - in mass/time
+63006P.U,2668-2,Norepinephrine (urine 24h) - in mass/time
+ ,29878-6,Argininosuccinate (urine) - in moles/moles creatinine 
+ ,22703-3,Histidine (urine) - in moles/moles creatinine
+ ,26575-1,3-Methylhistidine (urine) - in moles/moles creatinine
+ ,18475-4,Phenylalanine (urine) - in moles/moles creatinine
+ ,22694-4,Citrulline (urine) - in moles/moles creatinine
+ ,26919-1,Alpha aminobutyrate (urine) - in moles/moles creatinine
+ ,25847-5,Alpha aminoadipate (urine) - in moles/moles creatinine
+ ,22697-7,Arginine (urine) - in moles/moles creatinine
+ ,26577-7,Asparagine (urine) - in moles/moles creatinine
+ ,22691-0,Aspartate (urine) - in moles/moles creatinine
+ ,26578-5,Beta alanine (urine) - in moles/moles creatinine
+ ,22711-6,Glutamate (urine) - in moles/moles creatinine
+ ,79592-2,Homocitrulline (urine) - in moles/moles creatinine
+ ,22698-5,Alanine (urine) - in moles/moles creatinine
+ ,22684-5,Serine (urine) - in moles/moles creatinine
+ ,22679-5,Lysine (urine) - in moles/moles creatinine
+ ,22710-8,Glutamine (urine) - in moles/moles creatinine
+ ,22709-0,Glycine (urine) - in moles/moles creatinine
+ ,22688-6,Threonine (urine) - in moles/moles creatinine
+ ,22682-9,Ornithine (urine) - in moles/moles creatinine
+ ,22681-1,Methionine (urine) - in moles/moles creatinine
+ ,22685-2,Tyrosine (urine) - in moles/moles creatinine
+ ,22693-6,Leucine (urine) - in moles/moles creatinine
+63006Q.U,2218-6,Dopamine (urine 24h) - in mass/time
+58479C.B,22418-8,Mumps virus IgM (serum) - presence
+00510A..,8147-1,Amphetamines (serum/plasma)- in mass/volume
+57503C.F,38445-3,Calprotectin (stool)
+ ,25893-9,Cysteine (urine) - in moles/moles creatinine
+63323J.A,23826-1,Bordetella pertussis DNA (xxx) - presence
+63006M.U,2436-4,Homovanillate (HVA) (urine 24h) - in mass/time
+63329L.B,34635-3,Citalopram (serum/plasma) - in mass/volume
+58451A.B,7852-7,Cytomegalovirus IgG (serum)
+57145JBB,5619-2,Chromium (blood) - in mass/volume
+63012Q.U,5623-4,Chromium (urine) - in mass/volume
+44733A.B,21198-7,Beta human choriogonadotropin (serum/plasma)
+44865A.B,2258-2,Estrone (serum/plasma)
+57851P..,3886-9,Oxazepam (serum/plasma) - in mass/volume
+ ,5625-9,Cobalt (blood) - in mass/volume
+57804A.U,5628-3,Cobalt (urine) - in mass/volume
+ ,17129-8,CD28+ cells (blood) - in %
+ ,25082-9,2-Methyl-3-Hydroxybutyrate (urine) - in moles/moles creatinine
+57907B.B,38893-4,Aripiprazole (serum/plasma)
+ ,44311-9,Cotinine/cr�atinine (urine)
+0154....,48805-6,Platelet aggregation.panel (PRP)  
+58126A.B,53622-7,von Willebrand factor cleaving protease activity (Platelet poor plasma) - in % 
+57851R..,10343-2,Temazepam (serum/plasma) - in mass/volume
+58737B.U,31203-3,5-Hydroxyindoleacetic acid (urine 24h) - in mass/volume
+57199C.B,4685-4,Sulfhemoglobin (blood) - in %
+ ,26607-2,Cystathionine (serum/plasma) - in moles/volume
+57851V.B,6953-4,Zolpidem (serum/plasma) - in mass/volume
+63332F.B,6298-4,Potassium (blood) [mmol/L]
+63332T.B,2947-0,Sodium (blood) [mmol/L]
+ ,19239-3,Lactate (capillar blood) - in moles/volume
+ ,2704-5,pO2 (capillary blood) - partial pressure in mm[Hg]
+ ,2745-8,pH (capillary blood)
+63012Y.U,25110-8,Hydroxyproline (urine) - in moles/moles creatinine
+447050.B,10501-5,Luteinising hormone (serum/plasma) - in units/volume [U/L]
+447070.B,15067-2,Follicle stimulating hormone (serum/plasma) - in units/volume [U/L]
+57437A.U,3092-4,Urea (urine) - in mass/volume
+447071.B,32317-0,Follicle stimulating hormone baseline (serum/plasma)  - [U/L]
+57183A.B,4548-4,Hemoglobin A1c (blood) - in %
+58737B.U,1695-6,5-Hydroxyindoleacetic acid (urine 24h) - in mass/time
+58735A.U,26706-2,Vanillylmandelic acid (VMA) (urine 24h) - in mass/volume
+ ,24111-7,Neisseria gonorrhoeae DNA (xxx) - presence
+58425B.B,42328-5,Bordetella pertussis IgA (serum) - in units/volume
+63022Q.B,94187-2,Platelet aggregation (PRP) - Interpretation
+ ,16-6,Antibiotic susceptibility: Amoxicillin - MIC (isolate)
+ ,28-1,Antibiotic susceptibility: Ampicillin - MIC (isolate)
