@@ -38,13 +38,14 @@ ClassMethod parseUitslag(aStream As %FileCharacterStream, uitslagType As %String
 	set aUitslag =  ##class(Medidoc.Uitslag).%New()
 	set aUitslag.uitslagType = uitslagType
 	set line = $zstrip(aStream.ReadLine(),"<>W")
-	set aUitslag.analyseID = $piece(line,"\",1)
-	set aUitslag.relativeTime = $piece(line,"\",2)
+	set aUitslag.analyseID = $piece(line,"/",1)
+	set aUitslag.relativeTime = $piece(line,"/",2)
 	
 	//opgelet tussen if en '(' altijd exact 1 spatie plaatsen
 	if ((uitslagType = "a" ) || (uitslagType = "d" ) || (uitslagType = "h" ) || (uitslagType = "m" ) || (uitslagType = "s" ))
 	{	
 		set aUitslag.uitslag = $zstrip(aStream.ReadLine(),"<>W")
+		set aUitslag.uitslag = $case($e(aUitslag.uitslag,1),"=":$e(aUitslag.uitslag,2,*),:aUitslag.uitslag)
 		set aUitslag.eenheidID = $zstrip(aStream.ReadLine(),"<>W")
 		set aPN = $zstrip(aStream.ReadLine(),"<>W")
 		if ((aPN = "--") || (aPN = "LL") || (aPN = "1")){
@@ -65,6 +66,20 @@ ClassMethod parseUitslag(aStream As %FileCharacterStream, uitslagType As %String
 		
 		
 	}
+
+	if (uitslagType = "b"){
+		set line = $zstrip(aStream.ReadLine(),"<>W")
+		set aUitslag.uitslag = ""
+		while (line '= "#R/") {
+			if aUitslag.uitslag = "" {
+				set aUitslag.uitslag = aUitslag.uitslag_line
+			} else {
+				set aUitslag.uitslag = aUitslag.uitslag_", "_line
+			}
+			set line = $zstrip(aStream.ReadLine(),"<>W")
+		}
+		return st
+	}
 	
 	
 	set line = $zstrip(aStream.ReadLine(),"<>W")
@@ -79,7 +94,14 @@ ClassMethod parseUitslag(aStream As %FileCharacterStream, uitslagType As %String
 		}
 		else 
 		{
-			do aUitslag.commentaarlijnen.Insert(line)
+			if aUitslag.commentaarlijnen = ""
+			{
+				set aUitslag.commentaarlijnen = line
+			}
+			else {
+				set aUitslag.commentaarlijnen = aUitslag.commentaarlijnen_", "_line
+			}
+			
 		
 		}
 		set line = $zstrip(aStream.ReadLine(),"<>W")

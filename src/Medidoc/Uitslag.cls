@@ -8,7 +8,7 @@ Property uitslagType As %String(MAXLEN = 1);
 
 Property analyseID As %String(MAXLEN = 57) [ Internal ];
 
-Property uitslag As %String(MAXLEN = 77);
+Property uitslag As %String(MAXLEN = 100000);
 
 Property eenheidID As %String(MAXLEN = 30);
 
@@ -20,7 +20,7 @@ Property relativeTime As %Integer;
 
 // een lijst van commentaarlijnen
 
-Property commentaarlijnen As list Of %String(MAXLEN = 75);
+Property commentaarlijnen As %String(MAXLEN = 100000);
 
 Method toString() As %String
 {

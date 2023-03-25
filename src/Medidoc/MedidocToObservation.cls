@@ -36,9 +36,9 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <assign value='"Organization/Organization1"' property='target.performer.(1).reference' action='set' />
 </false>
 </if>
-<if condition='$LISTTOSTRING(source.commentaarlijnen.(1)) &apos;= ""'  expanded='false' >
+<if condition='source.commentaarlijnen &apos;= ""' >
 <true>
-<assign value='$LISTTOSTRING(source.commentaarlijnen.(1))' property='target.note.(1).text' action='set' />
+<assign value='source.commentaarlijnen' property='target.note.(1).text' action='set' />
 </true>
 </if>
 <if condition='source.aanduidingPathologischNormaal &apos;= ""' >
@@ -50,6 +50,21 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <if condition='source.referenceRange &apos;= ""' >
 <true>
 <assign value='source.referenceRange' property='target.referenceRange.(1).text' action='set' />
+</true>
+</if>
+<if condition='((source.uitslagType = "d") || (source.uitslagType = "h") || (source.uitslagType = "m") || (source.uitslagType = "s"))' >
+<true>
+<assign value='"http://snomed.info/sct"' property='target.component.(1).code.coding.(1).system' action='set' />
+<assign value='"118578006"' property='target.component.(1).code.coding.(1).code' action='set' />
+<assign value='"Relative time"' property='target.component.(1).code.coding.(1).display' action='set' />
+<if condition='(source.relativeTime &apos;= "")' >
+<true>
+<assign value='source.relativeTime' property='target.component.(1).valueQuantity.value' action='set' />
+<assign value='"http://unitsofmeasure.org"' property='target.component.(1).valueQuantity.system' action='set' />
+<assign value='$case(source.uitslagType, "d":"d","h":"h","m":"min","s":"s")' property='target.component.(1).valueQuantity.unit' action='set' />
+<assign value='$case(source.uitslagType, "d":"d","h":"h","m":"min","s":"s")' property='target.component.(1).valueQuantity.code' action='set' />
+</true>
+</if>
 </true>
 </if>
 </transform>
