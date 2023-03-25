@@ -16,6 +16,8 @@ Property aanduidingPathologischNormaal As %String(MAXLEN = 2);
 
 Property referenceRange As %String(MAXLEN = 75);
 
+Property relativeTime As %Integer;
+
 // een lijst van commentaarlijnen
 
 Property commentaarlijnen As list Of %String(MAXLEN = 75);
@@ -65,6 +67,9 @@ Storage Default
 </Value>
 <Value name="8">
 <Value>commentaarlijnen</Value>
+</Value>
+<Value name="9">
+<Value>relativeTime</Value>
 </Value>
 </Data>
 <DataLocation>^Medidoc.UitslagD</DataLocation>

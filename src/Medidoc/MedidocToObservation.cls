@@ -20,7 +20,11 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <assign value='"medidoccode not found"' property='target.text.status' action='set' />
 </true>
 <false>
+<if condition='source.uitslag &apos;= ""' >
+<true>
 <assign value='source.uitslag' property='target.valueString' action='set' />
+</true>
+</if>
 <assign value='tempCode' property='target.code.coding.(1).code' action='set' />
 <assign value='tempDescription' property='target.code.coding.(1).display' action='set' />
 <assign value='"http://loinc.org"' property='target.code.coding.(1).system' action='set' />
@@ -31,6 +35,22 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <assign value='"Patient/Patient1"' property='target.subject.reference' action='set' />
 <assign value='"Organization/Organization1"' property='target.performer.(1).reference' action='set' />
 </false>
+</if>
+<if condition='$LISTTOSTRING(source.commentaarlijnen.(1)) &apos;= ""'  expanded='false' >
+<true>
+<assign value='$LISTTOSTRING(source.commentaarlijnen.(1))' property='target.note.(1).text' action='set' />
+</true>
+</if>
+<if condition='source.aanduidingPathologischNormaal &apos;= ""' >
+<true>
+<assign value='source.aanduidingPathologischNormaal' property='target.interpretation.(1).coding.(1).code' action='set' />
+<assign value='"http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"' property='target.interpretation.(1).coding.(1).system' action='set' />
+</true>
+</if>
+<if condition='source.referenceRange &apos;= ""' >
+<true>
+<assign value='source.referenceRange' property='target.referenceRange.(1).text' action='set' />
+</true>
 </if>
 </transform>
 }

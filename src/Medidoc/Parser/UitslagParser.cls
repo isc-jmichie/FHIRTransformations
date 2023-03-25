@@ -14,12 +14,18 @@ ClassMethod parseUitslagen(aStream As %FileCharacterStream, Output aUitslagen As
 		if (line = "#A/") {
 			return st 
 		}
-		set type = $extract(line,3)	
-		//w "type uitslag ", type, !
-		set st = ..parseUitslag(aStream, type, .uitslag) 
-		if (st = $$$OK){
-			do aUitslagen.Uitslagen.Insert(uitslag)
-		} 	
+		if ($e(line,1,2) = "#R"){
+			set type = $extract(line,3)	
+			//w "type uitslag ", type, !
+			set st = ..parseUitslag(aStream, type, .uitslag) 
+			if (st = $$$OK){
+				do aUitslagen.Uitslagen.Insert(uitslag)
+			}
+		}
+		// Read until ending
+		else {
+			return st
+		}
 	}
 	
 	return st
@@ -31,20 +37,32 @@ ClassMethod parseUitslag(aStream As %FileCharacterStream, uitslagType As %String
 
 	set aUitslag =  ##class(Medidoc.Uitslag).%New()
 	set aUitslag.uitslagType = uitslagType
-	set aUitslag.analyseID = $zstrip(aStream.ReadLine(),"<>W") 
-	
-	set analyseIDFirstChar = $extract(aUitslag.analyseID)
-	if (analyseIDFirstChar '= "!")
-	{
-		set analyseCode = aUitslag.analyseID
-	}
+	set line = $zstrip(aStream.ReadLine(),"<>W")
+	set aUitslag.analyseID = $piece(line,"\",1)
+	set aUitslag.relativeTime = $piece(line,"\",2)
 	
 	//opgelet tussen if en '(' altijd exact 1 spatie plaatsen
-	if (uitslagType = "a")
+	if ((uitslagType = "a" ) || (uitslagType = "d" ) || (uitslagType = "h" ) || (uitslagType = "m" ) || (uitslagType = "s" ))
 	{	
 		set aUitslag.uitslag = $zstrip(aStream.ReadLine(),"<>W")
 		set aUitslag.eenheidID = $zstrip(aStream.ReadLine(),"<>W")
-		set aUitslag.aanduidingPathologischNormaal = $zstrip(aStream.ReadLine(),"<>W")
+		set aPN = $zstrip(aStream.ReadLine(),"<>W")
+		if ((aPN = "--") || (aPN = "LL") || (aPN = "1")){
+			set aUitslag.aanduidingPathologischNormaal = "LL"
+		}
+		if ((aPN = "-") || (aPN = "L") || (aPN = "2")){
+			set aUitslag.aanduidingPathologischNormaal = "L"
+		}
+		if ((aPN = "=") || (aPN = "N") || (aPN = "3") || (aPN = "")){
+			set aUitslag.aanduidingPathologischNormaal = "N"
+		}
+		if ((aPN = "+") || (aPN = "H") || (aPN = "4")){
+			set aUitslag.aanduidingPathologischNormaal = "H"
+		}
+		if ((aPN = "++") || (aPN = "HH") || (aPN = "5")){
+			set aUitslag.aanduidingPathologischNormaal = "HH"
+		}
+		
 		
 	}
 	
@@ -54,10 +72,10 @@ ClassMethod parseUitslag(aStream As %FileCharacterStream, uitslagType As %String
 		
 		// if the line starts with '\' it means it is a reference range
 		// remove the '\' out of the string
-		set tempReference = $piece(line, "\", 2, 2)
-		if ($length(tempReference)>0)
+		set tempReference = $e(line, 1)
+		if (tempReference = "\")
 		{
-			set aUitslag.referenceRange = tempReference
+			set aUitslag.referenceRange = $e(line,2,*)
 		}
 		else 
 		{

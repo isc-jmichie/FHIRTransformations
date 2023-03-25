@@ -23,11 +23,11 @@ XData DTL [ XMLNamespace = "http://www.intersystems.com/dtl" ]
 <if condition='source.AanvraagHoofding.geslachtPatient = "X"' >
 <true>
 <assign value='"female"' property='target.gender' action='set' />
+</true>
+</if>
 <if condition='source.AanvraagHoofding.geslachtPatient = "Y"' >
 <true>
 <assign value='"male"' property='target.gender' action='set' />
-</true>
-</if>
 </true>
 <false>
 <assign value='"unknown"' property='target.gender' action='set' />

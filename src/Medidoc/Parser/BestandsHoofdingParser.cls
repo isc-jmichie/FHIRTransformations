@@ -71,8 +71,8 @@ ClassMethod parseBestandsHoofding(aStream As %FileCharacterStream, Output aBesta
 		quit st
 	}
 
-	Set aBestandshoofding.AanvragerAchternaam = $extract(line,0,24)
-	Set aBestandshoofding.AanvragerVoornaam = $extract(line,25,40)
+	Set aBestandshoofding.AanvragerAchternaam = $zstrip($extract(line,0,24), "<>", " ")
+	Set aBestandshoofding.AanvragerVoornaam = $zstrip($extract(line,25,40), "<>", " ")
 
 	return st
 }

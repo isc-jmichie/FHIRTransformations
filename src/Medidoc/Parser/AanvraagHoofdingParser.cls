@@ -24,8 +24,8 @@ ClassMethod parseAanvraagHoofding(aStream As %FileCharacterStream, Output pResul
 		set st = $$$ERROR($$$GeneralError,"naam en voornaam patient")
 		quit st
 	}
-	Set pResult.AchterNaamPatient = $extract(line,0,24)
-	Set pResult.VoornaamPatient = $extract(line,25,40)
+	Set pResult.AchterNaamPatient = $zstrip($extract(line,0,24),"<>"," ")
+	Set pResult.VoornaamPatient = $zstrip($extract(line,25,40),"<>"," ")
 	
 	Set line=$zstrip(aStream.ReadLine(),"<>W")
 	if ($length(line)>50){  

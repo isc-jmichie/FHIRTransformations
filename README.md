@@ -1,6 +1,7 @@
 # Iris Healthtoolkit Service
 
-Easy to use Medidoc to FHIR transformation as a service
+Easy to use Medidoc to FHIR transformation as a service.
+
 The default HL7v2 to FHIR, CDA to FHIR, FHIR to HL7v2 transformations as a service which come with IRIS for Health are avalaible as well, with thanks to Guillaume Rongier (https://openexchange.intersystems.com/package/iris-healthtoolkit-service).
 
 The aim of this project is to provide an REST API that can convert easily various health formats.
@@ -13,7 +14,7 @@ Currently, you can try it out on: https://ec2-13-40-186-250.eu-west-2.compute.am
 Clone this repository
 
 ```
-git clone https://github.com/grongierisc/iris-healthtoolkit-service.git
+git clone https://github.com/isc-jmichie/FHIRTransformations
 ```
 
 Docker
@@ -39,7 +40,37 @@ POST http://localhost:32783/api/medidoc/fhir
   <summary>Input</summary>
   
   ```text
+  O912
+Laboratorium AZ-Nikolaas
+Moerlandstraat 1
+9100 St Niklaas      
+Tel: 03/760.22.79
+84661501383
+20200219
 
+Verelst                 Leander
+#A75052023118
+Verbeeck                Jan
+19750520
+Y
+20200214
+200214-0394
+C
+STRAAT 3
+9100
+SINT-NIKLAAS
+#Rc
+58451C.B
+#R/
+#Ra
+58451C.B
+<5.00
+6K
+=
+\< 18.00
+#R/
+#A/
+#/31
   ```
   
 </details>
@@ -48,7 +79,290 @@ POST http://localhost:32783/api/medidoc/fhir
   <summary>Output</summary>
 
   ```json
-
+  {
+    "resourceType": "Bundle",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:1B9F2D18-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "Patient",
+                "active": true,
+                "address": [
+                    {
+                        "city": "SINT-NIKLAAS",
+                        "country": "BE",
+                        "line": [
+                            "STRAAT 3"
+                        ],
+                        "postalCode": "9100",
+                        "text": "STRAAT 3, 9100 SINT-NIKLAAS"
+                    }
+                ],
+                "birthDate": "1975-05-20",
+                "gender": "male",
+                "id": "Patient1",
+                "identifier": [
+                    {
+                        "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+                        "use": "official",
+                        "value": "75052023118"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Verbeeck",
+                        "given": [
+                            "Jan"
+                        ]
+                    }
+                ],
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1B9F3CB8-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "Organization",
+                "active": true,
+                "address": [
+                    {
+                        "city": "St Niklaas",
+                        "country": "BE",
+                        "line": [
+                            "Moerlandstraat 1"
+                        ],
+                        "postalCode": "9100",
+                        "text": "Moerlandstraat 1, 9100 St Niklaas"
+                    }
+                ],
+                "id": "Organization1",
+                "identifier": [
+                    {
+                        "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+                        "type": {
+                            "coding": [
+                                {
+                                    "code": "MD",
+                                    "display": "Medical License number",
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                                }
+                            ]
+                        },
+                        "use": "official",
+                        "value": "84661501383"
+                    }
+                ],
+                "name": "Laboratorium AZ-Nikolaas",
+                "telecom": [
+                    {
+                        "value": "03/760.22.79"
+                    }
+                ],
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1B9F4488-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "Practitioner1",
+                "identifier": [
+                    {
+                        "system": "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+                        "use": "official"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Verelst",
+                        "given": [
+                            "Leander"
+                        ],
+                        "use": "official"
+                    }
+                ],
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1B9F5040-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "DiagnosticReport",
+                "basedOn": [
+                    {
+                        "reference": "ServiceRequest/ServiceRequest1"
+                    }
+                ],
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "LAB",
+                                "display": "Laboratory",
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0074"
+                            }
+                        ]
+                    }
+                ],
+                "id": "DiagnosticReport1",
+                "identifier": [
+                    {
+                        "system": "https://www.ehealth.fgov.be/lab-report/diagnostic-report-id",
+                        "value": "200214-0394"
+                    }
+                ],
+                "issued": "2020-02-19",
+                "language": "en",
+                "meta": {
+                    "versionId": "1"
+                },
+                "performer": [
+                    {
+                        "reference": "Organization/Organization1"
+                    }
+                ],
+                "resultsInterpreter": [
+                    {
+                        "reference": "Practitioner/Practitioner1"
+                    }
+                ],
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/Patient1"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1B9F5BF8-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "ServiceRequest",
+                "authoredOn": "2020-02-14",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "code": "108252007",
+                                "display": "Laboratory procedure",
+                                "system": "http://snomed.info/sct"
+                            }
+                        ]
+                    }
+                ],
+                "id": "ServiceRequest1",
+                "intent": "order",
+                "performer": [
+                    {
+                        "reference": "Organization/Organization1"
+                    }
+                ],
+                "requester": {
+                    "reference": "Practitioner/Practitioner1"
+                },
+                "status": "unknown",
+                "subject": {
+                    "reference": "Patient/Patient1"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1CCF2580-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "Observation",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "7853-5",
+                            "display": "Cytomegalovirus IgM (serum) -  in units/volume",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "id": "Observation1",
+                "performer": [
+                    {
+                        "reference": "Organization/Organization1"
+                    }
+                ],
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/Patient1"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:1D120698-CB3B-11ED-A766-0242AC120002",
+            "resource": {
+                "resourceType": "Observation",
+                "code": {
+                    "coding": [
+                        {
+                            "code": "7853-5",
+                            "display": "Cytomegalovirus IgM (serum) -  in units/volume",
+                            "system": "http://loinc.org"
+                        }
+                    ]
+                },
+                "id": "Observation2",
+                "interpretation": [
+                    {
+                        "coding": [
+                            {
+                                "code": "N",
+                                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                            }
+                        ]
+                    }
+                ],
+                "performer": [
+                    {
+                        "reference": "Organization/Organization1"
+                    }
+                ],
+                "referenceRange": [
+                    {
+                        "text": "< 18.00"
+                    }
+                ],
+                "status": "final",
+                "subject": {
+                    "reference": "Patient/Patient1"
+                },
+                "text": {
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">empty</div>",
+                    "status": "empty"
+                },
+                "valueString": "<5.00"
+            }
+        }
+    ],
+    "id": "medidocBundle",
+    "identifier": {
+        "system": "urn:ietf:rfc:3986",
+        "value": "urn:uuid:1B9F0608-CB3B-11ED-A766-0242AC120002"
+    },
+    "type": "collection"
+}
   ```
 </details>
 
