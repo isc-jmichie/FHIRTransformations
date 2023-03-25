@@ -1,4 +1,4 @@
-FROM containers.intersystems.com/intersystems/irishealth:2022.1.1.374.0
+FROM intersystemsdc/irishealth-community:latest
 
 ARG IRIS_PASSWORD
 

@@ -1,15 +1,12 @@
 # Iris Healthtoolkit Service
 
-[![Video](https://raw.githubusercontent.com/grongierisc/iris-healthtoolkit-service/main/misc/images/Cover.png)](https://youtu.be/lr2B7zSFkds "Video")
-
-Easy to use HL7v2 to FHIR,  CDA to FHIR, FHIR to HL7v2 as a Service.
+Easy to use Medidoc to FHIR transformation as a service
+The default HL7v2 to FHIR, CDA to FHIR, FHIR to HL7v2 transformations as a service which come with IRIS for Health are avalaible as well, with thanks to Guillaume Rongier (https://openexchange.intersystems.com/package/iris-healthtoolkit-service).
 
 The aim of this project is to provide an REST API that can convert easily various health formats.
 Post the desire format in the REST body, get the answer in the new format.
 
-* :fire: Official Version : https://aws.amazon.com/marketplace/pp/prodview-q7ryewpz75cq2 :fire:
-
-* :tv: Video : https://youtu.be/lr2B7zSFkds :tv:
+Currently, you can try it out on: https://ec2-13-40-186-250.eu-west-2.compute.amazonaws.com/swagger-ui/index.html
 
 ## Install
 
@@ -30,6 +27,30 @@ docker-compose up --build -d
 * Go to : http://localhost:32783/swagger-ui/index.html
 
 ## Api details
+
+### Medidoc to FHIR
+```
+POST http://localhost:32783/api/medidoc/fhir
+```
+
+#### Example
+
+<details>
+  <summary>Input</summary>
+  
+  ```text
+
+  ```
+  
+</details>
+
+<details>
+  <summary>Output</summary>
+
+  ```json
+
+  ```
+</details>
 
 ### HL7 to FHIR
 ```

@@ -6,8 +6,9 @@ services:
       dockerfile: dockerfile
       args: 
         - IRIS_PASSWORD=$IRIS_PASSWORD
-    command: --check-caps false -k /opt/irisapp/iris.key -a /opt/irisapp/script_iris.sh
-    restart: always
+    command: --check-caps false -a /opt/irisapp/script_iris.sh
+    hostname: iris
+    restart: unless-stopped
     env_file: 
       - .env
     ports: 

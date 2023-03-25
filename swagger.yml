@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   title: Iris HealthToolKit
-  description: Simple converter for HL7 to FHIR, FHIR to HL7, CDA to FHIR
+  description: Simple converter for Medidoc to FHIR, HL7 to FHIR, FHIR to HL7, CDA to FHIR
   version: 1.0.0
 host: localhost:32783
 basePath: /api
@@ -28,7 +28,8 @@ paths:
       - in: body
         name: body
         required: true
-        schema: '#/definitions/medidoc'
+        schema: 
+          $ref: '#/definitions/medidoc'
       responses:
         '200':
           description: OK
@@ -143,6 +144,7 @@ paths:
 definitions:
   medidoc:
     type: string
+    example: "O912\nLaboratorium AZ-Nikolaas\nMoerlandstraat 1\n9100 St Niklaas      \nTel: 03/760.22.79\n84661501383\n20200219\n\nLxxxxxx                 xxxxxx\n#A75052023118\nVxxxxxxx                xxxxxx\n19750520\nX\n20200214\n200214-0394\nC\nSTRAAT 3\n9100\nSINT-NIKLAAS\n#Rc\n58451C.B\n#R/\n#Ra\n58451C.B\n<5.00\n6K\n=\n\\< 18.00\n#R/\n#A/\n#/31"
   fhir :
     type: string
     example: {

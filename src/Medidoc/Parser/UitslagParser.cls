@@ -33,26 +33,10 @@ ClassMethod parseUitslag(aStream As %FileCharacterStream, uitslagType As %String
 	set aUitslag.uitslagType = uitslagType
 	set aUitslag.analyseID = $zstrip(aStream.ReadLine(),"<>W") 
 	
-	// als de analyseID niet met een ! begint is het een medidoccode. Voor het programma van Medidoc
-	// moeten we garanderen dat alle medidoccodes exact 10 karakters zijn
-	// als de analyseID minder dan 10 karakters is voegen we extra karakters toe
-	// voorbeelden
-	//   "!eentest" => "!eentest"
-	//   "0100...." => "0100....01"
-	//   "13913_.A" => "13913_.A01"
 	set analyseIDFirstChar = $extract(aUitslag.analyseID)
 	if (analyseIDFirstChar '= "!")
 	{
 		set analyseCode = aUitslag.analyseID
-		if ($LENGTH(analyseCode) < 8 || $LENGTH(analyseCode) = 9 || $LENGTH(analyseCode) >10)
-		{
-			// volgens de standaard moet een code 8 of 10 karakters zijn, om de fout te kunnen tonen voor de eindgebruiker voegen
-			// we deze info in de commentaarlijen toe
-			do aUitslag.commentaarlijnen.Insert("ongeldige medidoc code van labo ontvangen, hierdoor kan de visualisatie foutief zijn: " _ analyseCode)
-			do aUitslag.commentaarlijnen.Insert("Gelieve interne support te contacteren en te verwijzen naar dit bericht")
-			
-		}
-		
 	}
 	
 	//opgelet tussen if en '(' altijd exact 1 spatie plaatsen
